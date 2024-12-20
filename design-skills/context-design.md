@@ -6,3 +6,4 @@
 * Software design skills are limited among the developers (but not the leads).
 * Software architectural skills are even more limited among the developers (but not the leads).
 * These limitations are causing development teams to miss opportunities and box themselves in when coding product solutions.
+
