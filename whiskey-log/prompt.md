@@ -26,3 +26,7 @@ For each whiskey logged, the user wants to capture these attributes:
 - the backend and front end should both be executed with Python
 - all code should be easily testable (tests will be added later)
 - whiskey log data should be available across application sessions
+
+## not yet done
+- split whiskey log page from list
+- add ability to specify 'other' mash bill ingredient
