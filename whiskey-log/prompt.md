@@ -9,7 +9,11 @@ For each whiskey logged, the user wants to capture these attributes:
 * brand
 * proof
 * type of whiskey options shoudl include at least bourbon, rye, irish, scotch, whiskey, other
-* mash bill: options should include at least corn, rye, barley, wheat, other
+* mash bill: 
+    * this should be comprised of a list of ingredients
+    * each ingredient is a percentage value
+    * all ingredients for a mash bill must equal 100%
+    * ingredients can include corn, rye, barley, wheat, and other
 * notes
 
 ## Additional requirements
