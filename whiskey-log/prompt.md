@@ -30,3 +30,4 @@ For each whiskey logged, the user wants to capture these attributes:
 ## not yet done
 - split whiskey log page from list
 - add ability to specify 'other' mash bill ingredient
+- add grade (1, 2, 3) attribute
