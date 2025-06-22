@@ -19,6 +19,7 @@ For each whiskey logged, the user wants to capture these attributes:
 ## Additional requirements
 - the user needs to be able to view, edit and delete a specific whiskey log entry
 - the user needs to be able to see a list of all whiskeys (rows) and their attributes (columns)
+    - when it comes to the mash bill, there should be a column for each possible ingredient and actual percentage values shown in the appropriate column
 - the user needs to be able to sort the list on any attribute
 
 ## Non-Functional requirements
