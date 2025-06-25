@@ -8,12 +8,14 @@ For each whiskey logged, the user wants to capture these attributes:
 * country (of distiller)
 * brand
 * proof
-* type of whiskey options shoudl include at least bourbon, rye, irish, scotch, whiskey, other
+* taste (should include 3 options: 1 (high), 2 (medium), 3 (low))
+* type of whiskey options should include at least bourbon, rye, irish, scotch, whiskey, other
 * mash bill: 
     * this should be comprised of a list of ingredients
     * each ingredient is a percentage value
     * all ingredients for a mash bill must equal 100%
     * ingredients can include corn, rye, barley, wheat, and other
+        * when the user selects 'other' add a field set for ingredient label and percentage (this value should be included in the 100% requirement)
 * notes
 
 ## Additional requirements
@@ -27,7 +29,9 @@ For each whiskey logged, the user wants to capture these attributes:
 - all code should be easily testable (tests will be added later)
 - whiskey log data should be available across application sessions
 
+Only execute instructions above that have not already been implemented
+
+Also, if necessary, update the README file to reflect changed functionality
+
 ## not yet done
 - split whiskey log page from list
-- add ability to specify 'other' mash bill ingredient
-- add grade (1, 2, 3) attribute
