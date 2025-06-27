@@ -23,6 +23,7 @@ For each whiskey logged, the user wants to capture these attributes:
 - the user needs to be able to see a list of all whiskeys (rows) and their attributes (columns)
     - when it comes to the mash bill, there should be a column for each possible ingredient and actual percentage values shown in the appropriate column
 - the user needs to be able to sort the list on any attribute
+- the list and the view/edit/delete page should be separate pages with navigation back and forth between them
 
 ## Non-Functional requirements
 - the backend and front end should both be executed with Python
@@ -32,6 +33,3 @@ For each whiskey logged, the user wants to capture these attributes:
 Only execute instructions above that have not already been implemented
 
 Also, if necessary, update the README file to reflect changed functionality
-
-## not yet done
-- split whiskey log page from list
