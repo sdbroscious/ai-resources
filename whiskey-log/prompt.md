@@ -24,6 +24,8 @@ For each whiskey logged, the user wants to capture these attributes:
     - when it comes to the mash bill, there should be a column for each possible ingredient and actual percentage values shown in the appropriate column
 - the user needs to be able to sort the list on any attribute
 - the list and the view/edit/delete page should be separate pages with navigation back and forth between them
+- the list view and whiskey page view should be modeled on the look and feel of the Apple mail app in iPadOS 18
+- the user should be able to toggle back and forth between light and dark modes
 
 ## Non-Functional requirements
 - the backend and front end should both be executed with Python
