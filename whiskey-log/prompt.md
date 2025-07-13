@@ -34,7 +34,6 @@ For each whiskey logged, the user wants to capture these attributes:
 - all existing and new functionality should be covered by unit tests
     - coverage should not fall below 90% for the entire code base
     - all unit tests should assert something meaningful
-- before committing code, all unit tests must be run and pass
 - update the README file to reflect any new, deleted or changed functionality
 
 Only execute instructions above that have not already been implemented
