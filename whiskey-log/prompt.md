@@ -29,9 +29,12 @@ For each whiskey logged, the user wants to capture these attributes:
 
 ## Non-Functional requirements
 - the backend and front end should both be executed with Python
-- all code should be easily testable (tests will be added later)
+- all code should be easily testable
 - whiskey log data should be available across application sessions
+- all existing and new functionality should be covered by unit tests
+    - coverage should not fall below 90% for the entire code base
+    - all unit tests should assert something meaningful
+- before committing code, all unit tests must be run and pass
+- update the README file to reflect any new, deleted or changed functionality
 
 Only execute instructions above that have not already been implemented
-
-Also, if necessary, update the README file to reflect changed functionality
