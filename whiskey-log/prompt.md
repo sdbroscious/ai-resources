@@ -1,3 +1,5 @@
+> NOTE: I've moved this to the [whiskey log repo]() as a prd.md file in the documentation directory. The requirements below are no longer current.
+
 # Please create a web app that allows a user (unauthenticated) to log whiskeys that they have tasted.
 
 ## Core requirements
