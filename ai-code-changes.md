@@ -8,7 +8,7 @@ including the SDLC their team uses.
 I'm looking for information and guidance on how to effectively and efficiently
 
 * gather data on how AI coding tools are changing developer workflows, including SDLC
-* leverage this data to discern patterns of change
+* analyze this data to discern any patterns of change
 * assess whether we should encourage or discourage the patterns we discern
 * devise and implement plans for encouraging and discouraging relevant changes
 
