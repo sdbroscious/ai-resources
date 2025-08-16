@@ -12,6 +12,15 @@ I'm looking for information and guidance on how to effectively and efficiently
 * assess whether we should encourage or discourage the patterns we discern
 * devise and implement plans for encouraging and discouraging relevant changes
 
-Our organization is medium sized (approximately 400 developers) and normally does not engage in complex or rigid processes.
+Our organization is medium sized (approximately 400 developers) and normally does not engage in complex or rigid processes. 
+So, a lighterweight approach that is easier for development/product teams to assimilate would work better than a top-down heavier weight process. That said, we will need adoption metrics that can be reported to leadership.
+
+Currently, we are using GitHub Copilot for coding assistance within the IDE. We are also conducting a POC with GitHub Coding Agent.
+
+In addition to adoption metrics, the metrics of interest to us are
+
+* developer cycle time (start of work to delivery)
+* test coverage
+* defect rates
 
 Please respond with an action plan that is organized around the 4 bullets above, that is detailed, and that is an exportable markdown file.
