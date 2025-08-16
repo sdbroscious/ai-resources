@@ -12,4 +12,4 @@ I'm looking for information and guidance on how to effectively and efficiently
 * assess whether we should encourage or discourage the patterns we discern
 * devise and implement plans for encouraging and discouraging relevant changes
 
-Our organization is medium sized (approximately 400 developers) and normally eschew rigid processes.
+Our organization is medium sized (approximately 400 developers) and normally does not engage in complex or rigid processes.
