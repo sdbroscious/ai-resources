@@ -14,4 +14,4 @@ I'm looking for information and guidance on how to effectively and efficiently
 
 Our organization is medium sized (approximately 400 developers) and normally does not engage in complex or rigid processes.
 
-Pease respond with an action plan that is organized around the 4 bullets above and that is detailed
+Please respond with an action plan that is organized around the 4 bullets above, that is detailed, and that is an exportable markdown file.
