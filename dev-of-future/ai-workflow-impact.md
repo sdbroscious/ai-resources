@@ -1,26 +1,22 @@
-# ai impact on code
+# AI Impact on Developer Workflow (Action Plan Request)
 
-I'm responsible for integrating AI coding tools into our developer organization. 
-It seems reasonable that AI coding tools will have an impact on developer workflows, 
-including the SDLC their team uses. While these tools focus on coding assistants, 
-they are not limited to them. They can also include things like AI agentic tooling and MCP Servers.
+I'm responsible for integrating AI coding tools into our developer organization. It’s clear that these AI tools (like coding assistants) will impact developer workflows and the SDLC (software development life cycle). Beyond coding assistants (e.g. GitHub Copilot), we are also exploring autonomous AI agent tools and **MCP servers** (Model Context Protocol servers that let AI agents interact with external tools and data). 
 
-I'm looking for information and guidance on how to effectively and efficiently
+**Objective:** Develop an action plan for how our organization can effectively manage and leverage the changes brought by AI coding tools.
 
-* gather data on how AI coding tools are changing software development workflows (including the overall SDLC)
-* analyze this data to discern any patterns of change
-* assess whether we should encourage or discourage the patterns we discern
-* devise and implement plans for encouraging and discouraging relevant changes
+Specifically, the plan should cover:
 
-Our organization is medium sized (approximately 400 developers) and normally does not engage in complex or rigid processes. 
-So, a lighterweight approach that is easier for development/product teams to assimilate would work better than a top-down heavier weight process. That said, we will need adoption metrics that can be reported to leadership.
+1. **Gathering Data on Workflow Changes:** How to effectively collect data on how AI coding tools are changing our software development workflows (including the overall SDLC). This might involve usage analytics, surveys, or key software metrics.
+2. **Analyzing for Patterns:** How to analyze this data to identify patterns of change in workflow, productivity, or code quality.
+3. **Assessing Which Changes to Encourage or Discourage:** Criteria or guidelines to decide which observed changes are beneficial (to be encouraged) and which are detrimental (to be discouraged).
+4. **Planning Implementation:** How to devise and implement strategies for **encouraging positive changes** (e.g. faster cycle times, improved coverage) and **mitigating or discouraging negative changes** (e.g. any drop in quality), including lightweight methods to roll out these strategies in our organization.
 
-Currently, we are using GitHub Copilot for coding assistance within the IDE. We are also conducting a POC with GitHub Coding Agent.
+**Context:**  
+- Organization size is ~400 developers.
+- Our culture favors lightweight processes over rigid ones, so recommendations should be easy to adopt by teams without heavy “top-down” process imposition.  
+- We need to track **adoption metrics** for encouraged patterns and be able to report outcomes to leadership.  
+- Current tools in use: GitHub Copilot (IDE-basded coding assistant, already widely used) and a proof-of-concept with GitHub’s “Coding Agent” (an autonomous coding agent).  
+- **Metrics of interest:** Developer cycle time (start of work to delivery), test coverage, and defect rates. We’d like the plan to consider how these metrics are affected and how to measure changes in them.
 
-In addition to adoption metrics, the metrics of interest to us are
-
-* developer cycle time (start of work to delivery)
-* test coverage
-* defect rates
-
-Please respond with an action plan that is organized around the 4 bullets above, that is detailed, and that is an exportable markdown file.
+**Output Required:**  
+Please provide a detailed **action plan** organized into sections corresponding to the 4 points above. Use clear Markdown formatting (including appropriate headings, subpoints, and bullet lists) so that the result is an easy-to-read, exportable markdown file. Where applicable, back up your recommendations with **data, examples, or citations** from credible sources (academic studies, industry reports, case studies, etc.). Aim for clarity, conciseness in each section (short paragraphs), and a professional tone suitable for an internal strategy document.
