@@ -22,4 +22,4 @@ This repo is intended to consolidate work that i do with Generative AI tools. It
 
 - **app-from-image-claude**: This is an app that I ask Claude (not Code) to build based solely on a screen shot I took of the Todoist web interface. It produced a functioning CRUD app...crazy. Here's the [githup repo](https://github.com/sdbroscious/app-from-image-claude).
 
-- **whiskey-log-ghc-cli**: This is based on whiskey-log. The experiment here is to take the prd.md file created by Claude Code for v1 of the app and see whether Copilot CLI can recreate the app. So far I have the PRD converted to an action plan and Copilot CLI and I are working the steps. Here's the [githup repo]([https://github.com/sdbroscious/app-from-image-claude](https://github.com/sdbroscious/whiskey-log-ghc-cli).
+- **whiskey-log-ghc-cli**: This is based on whiskey-log. The experiment here is to take the prd.md file created by Claude Code for v1 of the app and see whether Copilot CLI can recreate the app. So far I have the PRD converted to an action plan and Copilot CLI and I are working the steps. Here's the [githup repo](https://github.com/sdbroscious/whiskey-log-ghc-cli).
