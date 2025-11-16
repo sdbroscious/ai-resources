@@ -7,6 +7,9 @@ This repo is intended to consolidate work that i do with Generative AI tools. It
     - **ai-tool-selection**: This directory contains artifacts related to defining selection criteria for AI coding assistants.
     - **design-skills**: This directory contains work done late in 2024, right after my back surgery. It's goal is to help me understand how I can work to help developers embrace the AI-era of coding.
     - **workflow-impact**: This directory contains prompts and responses around the question of how to capture and analyze data around AI's impact on developer workflows and the SDLC
+    - **spec-driven-dev**: This directory contains reports and other material related to spec-driven development, an emerging approach to AI-assisted coding.
+    - **ai_code_mentoring**: This document is a comprehensive and deeply researched report on the concept of "AI Fluency" for software developers, synthesizing academic studies, industry surveys, and corporate case studies from 2023-2025. It argues that true fluency is far more than just using AI tools; it's a strategic capability that requires structured training, new workflows, and a shift in developer skills.
+    - **ai_fluency**: This document outlines a comprehensive, research-backed framework for experienced software engineers to coach their development teams on effectively using AI coding tools like GitHub Copilot. The core thesis is that peer coaching from a credible, internal practitioner is significantly more effective than generic, external training.
     - **first-principles**: This is a document in which I capture my thinking on AI at farely high level
 
 ## Apps Created with AI Assistants
