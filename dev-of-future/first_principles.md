@@ -1,4 +1,4 @@
-x# First Principles
+# First Principles
 
 - prompt vs spec engineering
     - [article](https://strategizeyourcareer.com/p/prompt-engineering-vs-spec-engineering)
