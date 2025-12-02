@@ -28,11 +28,12 @@
     - implement
 - how formal or loose of a process?
 - do we create our own or adopt existing?
-    - github
-    - amazon
-    - openspec
-    - tessl
-    - version in Jay's repo
+    - [github spec-kit](https://github.com/github/spec-kit)
+    - [amazon kiro](https://kiro.dev/)
+    - [fission-ai openspec](https://github.com/Fission-AI/OpenSpec)
+    - [tessl](https://tessl.io/)
+    - [speckit.org](https://speckit.org/)
+    - [awesome-copilot sdd workflow](https://github.com/github/awesome-copilot/blob/main/instructions/spec-driven-workflow-v1.instructions.md)
 - if we create our own, do we do more than outline?
 - how many variations should we consider?
 - what type of process
