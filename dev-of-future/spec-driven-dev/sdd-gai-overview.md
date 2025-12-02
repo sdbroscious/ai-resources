@@ -13,6 +13,8 @@
     - custom instructions
     - custom agents
     - custom prompts
+ 
+## Operationalization
 - how do we field test
     - constitution?
     - sdd steps?
