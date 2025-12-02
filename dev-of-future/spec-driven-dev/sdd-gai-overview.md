@@ -2,9 +2,16 @@
 
 ## why
 - crisis of abundance
-- getting to deterministic
+- getting to determinism
 - paved path
     - path of least resistance
+ 
+## key elements
+- define the components
+    - define constitution elements
+    - define sdd steps
+- devise test plan
+- devise operational plan
 
 ## Components
 
