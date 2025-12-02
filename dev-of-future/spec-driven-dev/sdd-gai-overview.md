@@ -13,7 +13,10 @@
     - custom instructions
     - custom agents
     - custom prompts
-- delivery mechanism
+- how do we field test
+    - constitution?
+    - sdd steps?
+- delivery/governance mechanism
     - github action style
     - surveyor chore
     - federated central repo
@@ -42,15 +45,29 @@
     - spec-first
     - spec-anchored
     - spec-as-source
+- what artifacts
+    - do we recommend?
+    - do we recommend preserving?
 - what type of work?
     - green/brown
     - story/feature/epic
-- how do we field test?
 
 ## custom instructions
-- what types of instructions do we need
+- what types of instructions?
     - by language
     - by coding approach (e.g., TDD)
     - by framework
     - by quality
     - by security
+- how do we ensure usage?
+    - by teams and by copilot
+ 
+## custom prompts
+- what types of prompts?
+    - reviews
+        - architecture
+        - security
+        - language
+      
+## custom agents
+- too soon?
