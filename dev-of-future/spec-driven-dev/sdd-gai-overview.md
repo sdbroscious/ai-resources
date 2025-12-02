@@ -23,8 +23,10 @@
 - what steps?
     - constitution
     - specify
+    - clarify (from Spec Kit)
     - plan
     - tasks
+    - analyze (from Spec Kit)
     - implement
 - how formal or loose of a process?
 - do we create our own or adopt existing?
