@@ -11,6 +11,7 @@
     - define constitution elements
     - define sdd steps
 - devise test plan
+- devise roll out plan
 - devise operational plan
 
 ## Components
