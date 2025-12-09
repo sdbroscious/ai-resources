@@ -48,6 +48,7 @@
     - [fission-ai openspec](https://github.com/Fission-AI/OpenSpec)
     - [tessl](https://tessl.io/)
     - [speckit.org](https://speckit.org/)
+    - [nano-spec](https://github.com/tao-hpu/nano-spec)
     - [awesome-copilot sdd workflow](https://github.com/github/awesome-copilot/blob/main/instructions/spec-driven-workflow-v1.instructions.md)
 - if we create our own, do we do more than outline?
 - how many variations should we consider?
