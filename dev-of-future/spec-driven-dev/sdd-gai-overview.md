@@ -43,11 +43,10 @@
     - implement
 - how formal or loose of a process?
 - do we create our own or adopt existing?
-    - [github spec-kit](https://github.com/github/spec-kit)
+    - [speckit.org](https://speckit.org/) 
     - [amazon kiro](https://kiro.dev/)
     - [fission-ai openspec](https://github.com/Fission-AI/OpenSpec)
     - [tessl](https://tessl.io/)
-    - [speckit.org](https://speckit.org/)
     - [nano-spec](https://github.com/tao-hpu/nano-spec)
       - [Medium articile by creator](https://generativeai.pub/nano-spec-the-sweet-spot-between-chaos-and-over-engineering-in-ai-assisted-development-0d0ccec202c0)
     - [awesome-copilot sdd workflow](https://github.com/github/awesome-copilot/blob/main/instructions/spec-driven-workflow-v1.instructions.md)
