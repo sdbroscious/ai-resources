@@ -2,6 +2,7 @@
 
 ### GitHub Spec-Kit
 - [site](https://github.com/github/spec-kit)
+- [site](https://speckit.org/)
 - good for new
 - stages
 	- **constitution**: governing principles, dev guidelines
@@ -9,19 +10,6 @@
 	- **plan**: tech stack and architecture choices
 	- **tasks**: actionable task list
 	- **implement**: task execution
----
-### Spec Kit
-- [site](https://speckit.org/)
-- stages
-	- foundation
-		- **constitution**: governing principles and dev guidelines
-		- **specify**: what you want to build
-		- **clarify**: structured questioning
-		- **plan**: technical implementation plan
-	- implementation
-		- **tasks**: implementation task list
-		- **analyze**: cross-artifact consistency and coverage analysis
-		- **implement**: task execution
 ---
 ### nano-spec
 - [site](https://github.com/tao-hpu/nano-spec)

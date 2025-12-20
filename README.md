@@ -39,13 +39,20 @@ Resources and research related to AI-augmented software development, developer s
 - [design-skills-plan-claude-2.md](dev-of-future/design-skills/design-skills-plan-claude-2.md) — Refined Claude-generated plan with three phases over 12 months: Foundation Building, Skill Development, and Practice/Application, with measurement and feedback mechanisms.
 
 ### Spec-Driven Development (`spec-driven-dev/`)
-- [SpecDrivenDevelopment Plan (ChatGPT).md](dev-of-future/spec-driven-dev/SpecDrivenDevelopment%20Plan%20%28ChatGPT%29.md) — ChatGPT-generated framework for spec-driven development covering methodology overview, Agile integration, machine/human-readable spec formats, AI code validation, and challenge mitigation.
-- [SpecDrivenDevelopment Plan (Claude).md](dev-of-future/spec-driven-dev/SpecDrivenDevelopment%20Plan%20%28Claude%29.md) — Comprehensive Claude-generated guide for implementing SDD in a 350-developer organization, covering spec architecture, multi-tool AI consumption, repository governance, phased pilot rollout, and measuring effectiveness.
-- [SpecDrivenDevelopment Plan (Gemini).md](dev-of-future/spec-driven-dev/SpecDrivenDevelopment%20Plan%20%28Gemini%29.md) — Extensive Gemini-generated strategic blueprint positioning SDD as "the operating system for enterprise AI engineering," covering theoretical/operational imperatives, workflow phases, technical platform, legacy modernization, and organizational change.
+- [sdd-gai-overview.md](dev-of-future/spec-driven-dev/sdd-gai-overview.md) — Overview of Spec-Driven Development, addressing the "crisis of abundance" and the need for determinism in AI-augmented development.
+- [sdd-frameworks-steps.md](dev-of-future/spec-driven-dev/sdd-frameworks-steps.md) — Outline of SDD frameworks and stages, including references to GitHub Spec-Kit.
+- [sdd-pros-cons.md](dev-of-future/spec-driven-dev/sdd-pros-cons.md) — Analysis of the benefits (shared context, determinism) and trade-offs of the SDD approach.
+- [sdd-adoption-guidance.md](dev-of-future/spec-driven-dev/sdd-adoption-guidance.md) — Decision framework for when to adopt formal SDD versus lightweight Agile processes.
+- [sdd-ghc-suggestions.md](dev-of-future/spec-driven-dev/sdd-ghc-suggestions.md) — Planning considerations for SDD implementation, focusing on success metrics and measurement.
 
-#### Original SDD Files (`spec-driven-dev/original/`)
-- [sdd_research.md](dev-of-future/spec-driven-dev/original/sdd_research.md) — Comprehensive research framework on spec-driven development with AI coding tools, covering the landscape, taxonomy of specification artifacts, required/optional elements, cross-platform compatibility, implementation recommendations, and best practices.
-- [sdd_implementation.md](dev-of-future/spec-driven-dev/original/sdd_implementation.md) — Detailed six-month implementation plan for enterprise AI-augmented development with 350 developers, including SDD foundation, centrally managed components, AI code review integration, cross-functional planning, phased pilot implementation, and ROI measurement.
+#### Frontier Model Takes (`spec-driven-dev/frontier-model-takes/`)
+- [SpecDrivenDevelopment Plan (ChatGPT).md](dev-of-future/spec-driven-dev/frontier-model-takes/SpecDrivenDevelopment%20Plan%20%28ChatGPT%29.md) — ChatGPT-generated framework for spec-driven development covering methodology overview, Agile integration, machine/human-readable spec formats, AI code validation, and challenge mitigation.
+- [SpecDrivenDevelopment Plan (Claude).md](dev-of-future/spec-driven-dev/frontier-model-takes/SpecDrivenDevelopment%20Plan%20%28Claude%29.md) — Comprehensive Claude-generated guide for implementing SDD in a 350-developer organization, covering spec architecture, multi-tool AI consumption, repository governance, phased pilot rollout, and measuring effectiveness.
+- [SpecDrivenDevelopment Plan (Gemini).md](dev-of-future/spec-driven-dev/frontier-model-takes/SpecDrivenDevelopment%20Plan%20%28Gemini%29.md) — Extensive Gemini-generated strategic blueprint positioning SDD as "the operating system for enterprise AI engineering," covering theoretical/operational imperatives, workflow phases, technical platform, legacy modernization, and organizational change.
+
+#### Original Foray (`spec-driven-dev/original-foray/`)
+- [sdd_research.md](dev-of-future/spec-driven-dev/original-foray/sdd_research.md) — Comprehensive research framework on spec-driven development with AI coding tools, covering the landscape, taxonomy of specification artifacts, required/optional elements, cross-platform compatibility, implementation recommendations, and best practices.
+- [sdd_implementation.md](dev-of-future/spec-driven-dev/original-foray/sdd_implementation.md) — Detailed six-month implementation plan for enterprise AI-augmented development with 350 developers, including SDD foundation, centrally managed components, AI code review integration, cross-functional planning, phased pilot implementation, and ROI measurement.
 
 ---
 
