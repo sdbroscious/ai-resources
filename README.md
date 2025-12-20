@@ -67,3 +67,5 @@ Resources and research related to AI-augmented software development, developer s
 - **antigravity-todoist**: This is an app that I created with **Gemini Antigravity** in 2025-11. It's modeled on Todoist. Here's the [github repo](https://github.com/sdbroscious/antigravity-todoist).
 
 - **task-manager**: This is an app created with **GitHub Spark** in 2025-12. It's based on Google Tasks. Here's the [github repo](https://github.com/sdbroscious/task-manager).
+
+- **subscription-tracker**: This is a simple app (inside gemini-cli-demo) created with **Gemini CLI**. Here's the [github repo](https://github.com/sdbroscious/gemini-cli-demo). Gemini CLI is very similar to Claude Code and Copilot CLI.
