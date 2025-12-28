@@ -15,12 +15,17 @@ Resources and research related to AI-augmented software development, developer s
 
 ### AI Tool Selection (`ai-tool-selection/`)
 - [README.md](dev-of-future/ai-tool-selection/README.md) — Index describing the tool selection files and their evolution.
-- [ai-tool-selection.md](dev-of-future/ai-tool-selection/ai-tool-selection.md) — Original criteria for selecting AI coding assistants covering technical capabilities, code quality, integration, enterprise readiness, and adoption factors.
-- [ai-coding-assistant-selection-criteria-2025.md](dev-of-future/ai-tool-selection/ai-coding-assistant-selection-criteria-2025.md) — Updated 2025 criteria from GPT-5, adding agentic features, repo-aware context, stricter governance needs, and improved measurement approaches.
-- [ai-coding-assistant-selection-criteria-unified-2025.md](dev-of-future/ai-tool-selection/ai-coding-assistant-selection-criteria-unified-2025.md) — Merged and de-duplicated checklist combining the original criteria with 2025 updates, including a quick-use checklist.
+- [tools_six_dimenations.md](dev-of-future/ai-tool-selection/tools_six_dimenations.md) — Evaluation Criteria Matrix scoring potential solutions across six specific dimensions (Technical Capabilities, Security, Usability, Cost, Vendor Reliability, IT Infrastructure).
+
+#### 2025 Selection Criteria (`ai-tool-selection/ai_tool_selection_2025/`)
+- [ai-tool-selection.md](dev-of-future/ai-tool-selection/ai_tool_selection_2025/ai-tool-selection.md) — Original criteria for selecting AI coding assistants covering technical capabilities, code quality, integration, enterprise readiness, and adoption factors.
+- [ai-coding-assistant-selection-criteria-2025.md](dev-of-future/ai-tool-selection/ai_tool_selection_2025/ai-coding-assistant-selection-criteria-2025.md) — Updated 2025 criteria from GPT-5, adding agentic features, repo-aware context, stricter governance needs, and improved measurement approaches.
+- [ai-coding-assistant-selection-criteria-unified-2025.md](dev-of-future/ai-tool-selection/ai_tool_selection_2025/ai-coding-assistant-selection-criteria-unified-2025.md) — Merged and de-duplicated checklist combining the original criteria with 2025 updates, including a quick-use checklist.
+- [AI_Coding_Assistant_Selection_Template_2025.xlsx](dev-of-future/ai-tool-selection/ai_tool_selection_2025/AI_Coding_Assistant_Selection_Template_2025.xlsx) — Excel template for scoring and evaluating AI coding assistants.
 
 ### AI Workflows (`ai-workflows/`)
 - [ai_tools_and_sdlc.md](dev-of-future/ai-workflows/ai_tools_and_sdlc.md) — Extensive analysis of how AI tools are transforming the software development lifecycle, covering all SDLC phases, measured impacts, implementation reality, future trajectories, and organizational implications.
+- [ai_sdlc_maturity.md](dev-of-future/ai-workflows/ai_sdlc_maturity.md) — Five-stage maturity model tracking the journey from manual development (Level 0) to fully AI-orchestrated environments (Level 4).
 
 #### Workflow Impact (`ai-workflows/workflow-impact/`)
 - [ai-workflow-impact.md](dev-of-future/ai-workflows/workflow-impact/ai-workflow-impact.md) — Action plan request document for managing AI coding tool integration, covering data gathering, pattern analysis, change assessment, and implementation planning for a ~400 developer organization.
@@ -31,6 +36,8 @@ Resources and research related to AI-augmented software development, developer s
 
 ###### Templates (`ai-workflows/workflow-impact/ai_responses/templates/`)
 - [developer_diary_template.md](dev-of-future/ai-workflows/workflow-impact/ai_responses/templates/developer_diary_template.md) — Template for developers to log how AI coding assistants affect their daily/weekly work, covering usage, workflow impact, benefits, challenges, and collaboration changes.
+- [developer_diary_template.xlsx](dev-of-future/ai-workflows/workflow-impact/ai_responses/templates/developer_diary_template.xlsx) — Excel version of the developer diary template.
+- [ai_workflow_observation_template.xlsx](dev-of-future/ai-workflows/workflow-impact/ai_responses/templates/ai_workflow_observation_template.xlsx) — Excel template for observing and recording AI workflow patterns.
 
 ### Design Skills (`design-skills/`)
 - [context-design-v2.md](dev-of-future/design-skills/context-design-v2.md) — Problem context document describing a department's need to improve software design and architectural skills among ~35 developers.
