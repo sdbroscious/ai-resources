@@ -22,8 +22,9 @@ Steve Yegge & Gene Kim, [Vibe Coding](https://www.amazon.com/Vibe-Coding-Buildin
 
 ## problem domain: new constraints/opportunities
 - volume and speed of AI output
- - ability to understand
- - ability to validate
+ - natural throttles
+  - human need/ability to understand
+  - human need/ability to validate
 - pre/post-development tasks
     - story creation
     - story testing/validation
