@@ -30,6 +30,7 @@
 
 - **dev-skillerator**: This is a Flask-based web application for managing developer skill evaluations. It was created with **GitHub Copilot CLI**. [repo](https://github.gaig.com/dbroscious/dev-skillerator).
 
+- **gh_copilot_metricizer**: Leverages GitHub Copilot metrics data to build a dashboard app. Created with Claude Code. [repo](https://github.gaig.com/dbroscious/gh_copilot_metricizer).
 
 ## Options
 
