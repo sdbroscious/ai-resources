@@ -20,8 +20,10 @@ Steve Yegge & Gene Kim, [Vibe Coding](https://www.amazon.com/Vibe-Coding-Buildin
     - problem solving
     - cross-functional communication
 
-## problem domain: new constraints
-- developer ability to understand/validate high volume of AI-produced code
+## problem domain: new constraints/opportunities
+- volume and speed of AI output
+ - ability to understand
+ - ability to validate
 - pre/post-development tasks
     - story creation
     - story testing/validation
