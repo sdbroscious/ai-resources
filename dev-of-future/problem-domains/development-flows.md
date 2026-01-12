@@ -16,5 +16,5 @@
 
 ## resources
 
-- [ai-workflows](https://github.com/sdbroscious/ai-resources/tree/main/dev-of-future/resources/ai-workflows)
-- [spec-driven-design](https://github.com/sdbroscious/ai-resources/tree/main/dev-of-future/resources/spec-driven-dev)
+- [ai-workflows](https://github.com/sdbroscious/ai-resources/tree/main/dev-of-future/resources/development-flows/ai-workflows)
+- [spec-driven-design](https://github.com/sdbroscious/ai-resources/tree/main/dev-of-future/resources/development-flows/spec-driven-dev)

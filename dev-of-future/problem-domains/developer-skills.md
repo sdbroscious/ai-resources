@@ -16,6 +16,6 @@
 
 ## resources
 
-- [ai-mentoring](https://github.com/sdbroscious/ai-resources/tree/main/dev-of-future/resources/ai-mentoring)
-- [ai-tool-selection](https://github.com/sdbroscious/ai-resources/tree/main/dev-of-future/resources/ai-tool-selection)
-- [design-skills](https://github.com/sdbroscious/ai-resources/tree/main/dev-of-future/resources/design-skills)
+- [ai-mentoring](https://github.com/sdbroscious/ai-resources/tree/main/dev-of-future/resources/developer-skills/ai-mentoring)
+- [ai-tool-selection](https://github.com/sdbroscious/ai-resources/tree/main/dev-of-future/resources/developer-skills/ai-tool-selection)
+- [design-skills](https://github.com/sdbroscious/ai-resources/tree/main/dev-of-future/resources/developer-skills/design-skills)
