@@ -21,10 +21,11 @@ Steve Yegge & Gene Kim, [Vibe Coding](https://www.amazon.com/Vibe-Coding-Buildin
     - cross-functional communication
 
 ## problem domain: new constraints/opportunities
-- volume and speed of AI output
- - natural throttles
-  - human need/ability to understand
-  - human need/ability to validate
+
+* volume and speed of AI output
+ * natural throttles
+  * human need/ability to understand
+  * human need/ability to validate
 - pre/post-development tasks
     - story creation
     - story testing/validation
