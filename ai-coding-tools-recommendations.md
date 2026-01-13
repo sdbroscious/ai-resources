@@ -1,5 +1,7 @@
 # AI Coding Tools - Next Recommendations
 
+> This doc is the result of a Claude Code prompt (via mobile app) to look at this repo and what Claude knows about me to suggest tools that i should explore. Claude Code created a PR that i merged via the GitHub mobile app.
+
 Based on your repository and extensive hands-on experimentation, here are AI coding tools you should try next, organized by what they'd add to your research.
 
 ## Agentic/Autonomous Coding Tools (Next Frontier)
