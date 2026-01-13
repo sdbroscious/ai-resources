@@ -4,14 +4,22 @@ This repo consolidates work with Generative AI tools—from high-order work like
 
 ---
 
+## Root Files
+
+Foundational documents and high-level resources at the repository root.
+
+- [ai-principles.md](ai-principles.md) — Guiding metaphors (Yegge/Kim's "head chef" concept from *Vibe Coding*) and eras of AI coding assistance (code completion → chat → agentic).
+- [ai-lessons.md](ai-lessons.md) — Key lessons learned: rapid tooling/thought pattern change, persistence of SDD, variable developer adoption, and enduring concerns around value/quality/speed.
+- [ai-experiments-tools.md](ai-experiments-tools.md) — Catalog of AI coding tools experimented with (Claude Code, Windsurf, GitHub Copilot, Gemini tools, etc.) and GenAI apps used for various projects.
+- [ai-experiments-apps.md](ai-experiments-apps.md) — Detailed list of applications built with various AI coding tools, including whiskey-log, taskflow, todoist clones, Connect Four, and work-related apps.
+- [ai-sdd-pitch.md](ai-sdd-pitch.md) — Overview pitch for Spec-Driven Development (SDD) in the context of "vibe coding," including advantages, disadvantages, and the "vibe then verify" approach.
+- [ai-coding-tools-recommendations.md](ai-coding-tools-recommendations.md) — Claude Code-generated recommendations for AI coding tools to explore next, organized by category (agentic tools, specialized workflow tools, quality/testing specialists, experimental tools) with prioritized suggestions.
+
+---
+
 ## Developer of the Future (`dev-of-future/`)
 
 Resources and research related to AI-augmented software development, developer skills evolution, and organizational transformation.
-
-### Root Files
-
-- [first-principles.md](dev-of-future/first-principles.md) — Guiding metaphors (Yegge/Kim's "head chef" concept from *Vibe Coding*) and eras of AI coding assistance (code completion → chat → agentic).
-- [lessons.md](dev-of-future/lessons.md) — Key lessons learned: rapid tooling/thought pattern change, persistence of SDD, variable developer adoption, and enduring concerns around value/quality/speed.
 
 ### Problem Domains (`problem-domains/`)
 
@@ -36,8 +44,8 @@ Resources addressing developer skills evolution in the AI era.
 
 ##### AI Tool Selection (`resources/developer-skills/ai-tool-selection/`)
 
-- [README.md](dev-of-future/resources/developer-skills/ai-tool-selection/README.md) — Index describing the tool selection files and their evolution.
 - [tools_six_dimenations.md](dev-of-future/resources/developer-skills/ai-tool-selection/tools_six_dimenations.md) — Evaluation Criteria Matrix scoring potential solutions across six dimensions (Technical Capabilities, Security, Usability, Cost, Vendor Reliability, IT Infrastructure).
+- [ai-code-review-tools-comparison.md](dev-of-future/resources/developer-skills/ai-tool-selection/ai-code-review-tools-comparison.md) — ChatGPT-generated comparative analysis of automated code review tools (Zencoder, Codacy, SonarQube, CodeRabbit, Snyk Code, DeepSource, Qodo, Codiga) for a 350-developer organization using GitHub Enterprise.
 
 ###### 2025 Selection Criteria (`resources/developer-skills/ai-tool-selection/ai_tool_selection_2025/`)
 
@@ -100,6 +108,22 @@ Resources addressing development workflows and processes in the AI era.
 #### Miscellaneous (`resources/miscellaneous/`)
 
 - [mcp-security.md](dev-of-future/resources/miscellaneous/mcp-security.md) — Security analysis of MCP (Model Context Protocol) servers for LLMs, covering injection attacks, data exfiltration risks, and mitigation best practices.
+
+---
+
+## Reports (`reports/`)
+
+Deep-dive explanatory documents and analysis reports.
+
+- [explanation-ai-resources-repo-20260112.md](reports/explanation-ai-resources-repo-20260112.md) — Comprehensive explanation of the ai-resources repository: what it is, why it exists, the guiding philosophy (head chef metaphor), three core problem domains (developer skills, development workflows, measuring impact), repository structure, key content highlights, practical applications for different roles, and how to get the most value from the repository.
+
+---
+
+## Configuration (`/.github/`)
+
+Repository configuration and tool-specific instructions.
+
+- [copilot-instructions.md](.github/copilot-instructions.md) — GitHub Copilot instructions describing the repository structure, content patterns (frontier model comparisons, AI-generated content, README as index), key concepts (SDD, AI mentoring framework), writing style, and guidelines for adding new content.
 
 ---
 
