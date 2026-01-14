@@ -13,53 +13,20 @@
     - how do you 
 	    - ensure quality does not decrease
 	    - developers are not idle
+    - software saugage making (with due allowance for varients)
+        - define > design > implement > test > deliver > test > use
+
+## options
+- use AI to accelerate story creation & post-delivery testing
+    - still have burden of human verification
+        - maybe only AI for story creation?
+- have different roles/people create stories and test post-delivery
+    - not ideal because of increased hand-off friction
+    - increased risk that mose team members lose 'the why'
+- move developers across different teams: "plate spinning"
+    - not ideal because devs can lose 'the why'
 
 ## workflow scenario 1
-
-This diagram shows the flow of work between TPM, Designer, and Developer roles in the development workflow.
-
-```mermaid
-sequenceDiagram
-    participant TPM as TPM
-    participant DES as Designer
-    participant DEV as Developer
-
-    TPM->>TPM: Backlog Management
-    TPM->>TPM: Create Story
-    TPM->>DES: Story
-    DES->>DES: Create Design
-    DES->>DEV: Design
-    TPM->>DEV: Story
-    DEV->>DEV: Create Tech Spec
-    DEV->>TPM: Tech Spec for Review
-    DEV->>DES: Tech Spec for Review
-
-    alt Tech Spec Approved
-        TPM->>DEV: Approve
-        DES->>DEV: Approve
-        DEV->>DEV: Implement
-        DEV->>DEV: Verify Implementation
-        DEV->>TPM: Ready for Testing
-        TPM->>TPM: Test Implementation
-    else Story Needs Revision
-        TPM->>TPM: Revise Story
-        TPM->>DES: Updated Story
-        DES->>DES: Update Design
-        DES->>DEV: Updated Design
-        TPM->>DEV: Updated Story
-        DEV->>DEV: Revise Tech Spec
-        DEV->>TPM: Updated Tech Spec
-        DEV->>DES: Updated Tech Spec
-    else Design Needs Revision
-        DES->>DES: Revise Design
-        DES->>DEV: Updated Design
-        DEV->>DEV: Revise Tech Spec
-        DEV->>TPM: Updated Tech Spec
-        DEV->>DES: Updated Tech Spec
-    end
-```
-
-## Key Phases
 
 1. **Story Creation**: TPM manages backlog and creates story
 2. **Design Phase**: Designer creates design based on story
@@ -71,13 +38,12 @@ sequenceDiagram
 5. **Implementation**: Developer implements and verifies the code
 6. **Testing**: TPM tests the final implementation
 
-## Feedback Loops
+### Feedback Loops
 
 The diagram includes feedback loops that represent real-world scenarios where:
 - Technical constraints discovered during spec creation require story changes
 - Design elements need refinement based on technical feasibility
 - Iteration happens before moving to implementation
-
 
 ## resources
 
