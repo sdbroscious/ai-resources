@@ -1,0 +1,101 @@
+graph TB
+    subgraph "SDD Five-Layer Architecture"
+        S1[Specification Layer<br/>Authoritative Intent]
+        S2[Generation Layer<br/>AI Transforms Specs to Code]
+        S3[Artifact Layer<br/>Code, Tests, Docs]
+        S4[Validation Layer<br/>Drift Detection & Testing]
+        S5[Runtime Layer<br/>Operational System]
+
+        S1 -->|transforms| S2
+        S2 -->|produces| S3
+        S3 -->|validated by| S4
+        S4 -->|executes as| S5
+        S5 -.->|feedback| S1
+        S4 -.->|drift alerts| S1
+    end
+
+    subgraph "Three-Artifact Workflow"
+        A1[Requirements.md<br/>User Story<br/>Edge Cases<br/>Success Criteria]
+        A2[Spec.md<br/>Architecture<br/>Data Flows<br/>Impacted Files]
+        A3[Tasks.md<br/>Implementation Steps<br/>RED/GREEN/VERIFY<br/>Checklist]
+
+        A1 -->|informs| A2
+        A2 -->|details| A3
+    end
+
+    subgraph "Human-AI Collaboration"
+        H1{Gate 1<br/>Requirements<br/>Review}
+        H2{Gate 2<br/>Technical<br/>Review}
+        H3{Gate 3<br/>Implementation<br/>Review}
+        H4{Gate 4<br/>Execution<br/>Review}
+
+        A1 --> H1
+        H1 -->|approved| A2
+        H1 -.->|revise| A1
+
+        A2 --> H2
+        H2 -->|approved| A3
+        H2 -.->|revise| A2
+
+        A3 --> H3
+        H3 -->|approved| EXEC[Phased Execution]
+        H3 -.->|revise| A3
+    end
+
+    subgraph "Phased Execution Cycle"
+        EXEC --> P1[Execute Subset<br/>Tasks 1-2]
+        P1 --> P2[Mark Progress<br/>in tasks.md]
+        P2 --> P3[Run Tests &<br/>Validation]
+        P3 --> H4
+        H4 -->|pass| CHECK{More<br/>Tasks?}
+        H4 -.->|fail| P1
+        CHECK -->|yes| P1
+        CHECK -->|no| DONE[Feature Complete]
+    end
+
+    subgraph "RED/GREEN/VERIFY Loop"
+        RED[RED: Write<br/>Failing Test]
+        GREEN[GREEN: Implement<br/>Minimum Code]
+        VERIFY[VERIFY: Validate<br/>Against Spec]
+        COMMIT[COMMIT: Mark<br/>Complete]
+
+        RED --> GREEN
+        GREEN --> VERIFY
+        VERIFY --> COMMIT
+        VERIFY -.->|drift| RED
+    end
+
+    subgraph "Drift Detection System"
+        D1[Automated Tests]
+        D2[Static Analysis]
+        D3[Runtime Monitoring]
+        D4{Drift<br/>Detected?}
+        D5[Update Code<br/>OR<br/>Update Spec]
+
+        D1 --> D4
+        D2 --> D4
+        D3 --> D4
+        D4 -->|yes| D5
+        D5 --> S1
+    end
+
+    START([New Feature<br/>Request]) --> INTENT[Capture Intent]
+    INTENT --> A1
+
+    DONE --> MAINTAIN[Maintain<br/>Spec-Anchored<br/>State]
+    MAINTAIN --> S1
+
+    P1 -.->|for each task| RED
+
+    style S1 fill:#e1f5e1
+    style A1 fill:#e3f2fd
+    style A2 fill:#e3f2fd
+    style A3 fill:#e3f2fd
+    style H1 fill:#fff3e0
+    style H2 fill:#fff3e0
+    style H3 fill:#fff3e0
+    style H4 fill:#fff3e0
+    style RED fill:#ffebee
+    style GREEN fill:#e8f5e9
+    style VERIFY fill:#fff9c4
+    style DONE fill:#c8e6c9
