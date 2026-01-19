@@ -8,11 +8,12 @@ This repo consolidates work with Generative AI tools—from high-order work like
 
 Foundational documents and high-level resources at the repository root.
 
-- [ai-principles.md](ai-principles.md) — Guiding metaphors (Yegge/Kim's "head chef" concept from *Vibe Coding*) and eras of AI coding assistance (code completion → chat → agentic).
+- [ai-principles.md](ai-principles.md) — Guiding metaphors (Yegge/Kim's "head chef" concept from *Vibe Coding*) and eras of AI coding assistancen (code completion → chat → agentic).
 - [ai-lessons.md](ai-lessons.md) — Key lessons learned: rapid tooling/thought pattern change, persistence of SDD, variable developer adoption, and enduring concerns around value/quality/speed.
 - [ai-experiments-tools.md](ai-experiments-tools.md) — Catalog of AI coding tools experimented with (Claude Code, Windsurf, GitHub Copilot, Gemini tools, etc.) and GenAI apps used for various projects.
 - [ai-experiments-apps.md](ai-experiments-apps.md) — Detailed list of applications built with various AI coding tools, including whiskey-log, taskflow, todoist clones, Connect Four, and work-related apps.
 - [ai-sdd-pitch.md](ai-sdd-pitch.md) — Overview pitch for Spec-Driven Development (SDD) in the context of "vibe coding," including advantages, disadvantages, and the "vibe then verify" approach.
+- [ai-plans.md](ai-plans.md) — Strategic planning framework for AI adoption focused on developer skills (AI fluency, design skills) and workflow transformation (spec-driven development, inputs vs outputs), organized into two prongs: Developer of the Future and Development of the Future.
 - [ai-coding-tools-recommendations.md](ai-coding-tools-recommendations.md) — Claude Code-generated recommendations for AI coding tools to explore next, organized by category (agentic tools, specialized workflow tools, quality/testing specialists, experimental tools) with prioritized suggestions.
 
 ---
@@ -32,6 +33,8 @@ Framing documents that define the problem spaces addressed by the resources.
 ### Resources (`resources/`)
 
 Detailed research, frameworks, and templates organized by problem domain.
+
+- [ai-players.md](dev-of-future/resources/ai-players.md) — List of people and teams for POCs and initiatives across GAS Lab, SDLC COE, API COE, Data Science, and Emerging Tech.
 
 #### Developer Skills (`resources/developer-skills/`)
 
@@ -88,7 +91,9 @@ Resources addressing development workflows and processes in the AI era.
 ##### Spec-Driven Development (`resources/development-flows/spec-driven-dev/`)
 
 - [sdd-gai-overview.md](dev-of-future/resources/development-flows/spec-driven-dev/sdd-gai-overview.md) — Overview of Spec-Driven Development, addressing the "crisis of abundance" and the need for determinism in AI-augmented development.
+- [sdd-blueprint.md](dev-of-future/resources/development-flows/spec-driven-dev/sdd-blueprint.md) — General SDD phases synthesized from multiple frameworks (GitHub Spec Kit, Augment Code, AWS Kiro, Zencoder): Constitution, Specification, Technical Planning, Task Decomposition, Implementation, and Continuous Validation.
 - [sdd-frameworks-steps.md](dev-of-future/resources/development-flows/spec-driven-dev/sdd-frameworks-steps.md) — Outline of SDD frameworks and stages, including references to GitHub Spec-Kit.
+- [sdd-scoping-guidance.md](dev-of-future/resources/development-flows/spec-driven-dev/sdd-scoping-guidance.md) — How to apply SDD at different levels and scopes: greenfield/brownfield projects, epics, features, stories, and tasks—adjusting the "altitude" of specifications accordingly.
 - [sdd-pros-cons.md](dev-of-future/resources/development-flows/spec-driven-dev/sdd-pros-cons.md) — Analysis of the benefits (shared context, determinism) and trade-offs of the SDD approach.
 - [sdd-adoption-guidance.md](dev-of-future/resources/development-flows/spec-driven-dev/sdd-adoption-guidance.md) — Decision framework for when to adopt formal SDD versus lightweight Agile processes.
 - [sdd-ghc-suggestions.md](dev-of-future/resources/development-flows/spec-driven-dev/sdd-ghc-suggestions.md) — Planning considerations for SDD implementation, focusing on success metrics and measurement.
@@ -105,6 +110,10 @@ Resources addressing development workflows and processes in the AI era.
 - [sdd_research.md](dev-of-future/resources/development-flows/spec-driven-dev/original-foray/sdd_research.md) — Comprehensive research framework on spec-driven development with AI coding tools: landscape, taxonomy of specification artifacts, required/optional elements, cross-platform compatibility, implementation recommendations, and best practices.
 - [sdd_implementation.md](dev-of-future/resources/development-flows/spec-driven-dev/original-foray/sdd_implementation.md) — Detailed six-month implementation plan for enterprise AI-augmented development with 350 developers, including SDD foundation, centrally managed components, AI code review integration, cross-functional planning, phased pilot implementation, and ROI measurement.
 
+###### Claude Cowork (`resources/development-flows/spec-driven-dev/claude-cowork/`)
+
+- [sdd-plan.md](dev-of-future/resources/development-flows/spec-driven-dev/claude-cowork/sdd-plan.md) — Unified Spec-Driven Development workflow synthesizing insights from multiple frameworks: five-layer architecture (Specification, Generation, Artifact, Validation, Runtime), three-artifact workflow (Requirements, Technical Spec, Implementation Plan), phased execution model with RED/GREEN/VERIFY loops, human-AI collaboration patterns, and drift detection mechanisms.
+
 #### Miscellaneous (`resources/miscellaneous/`)
 
 - [mcp-security.md](dev-of-future/resources/miscellaneous/mcp-security.md) — Security analysis of MCP (Model Context Protocol) servers for LLMs, covering injection attacks, data exfiltration risks, and mitigation best practices.
@@ -116,6 +125,15 @@ Resources addressing development workflows and processes in the AI era.
 Deep-dive explanatory documents and analysis reports.
 
 - [explanation-ai-resources-repo-20260112.md](reports/explanation-ai-resources-repo-20260112.md) — Comprehensive explanation of the ai-resources repository: what it is, why it exists, the guiding philosophy (head chef metaphor), three core problem domains (developer skills, development workflows, measuring impact), repository structure, key content highlights, practical applications for different roles, and how to get the most value from the repository.
+
+---
+
+## Skills (`skills/`)
+
+Custom Claude Code skills for specialized tasks in this repository.
+
+- [m3-expressive.md](skills/m3-expressive.md) — Claude Code skill for applying Google Material 3 Expressive design system to web pages: design tokens, typography, motion, components, responsive layouts, and accessibility requirements.
+- [report-unit-tests.md](skills/report-unit-tests.md) — Claude Code skill for ensuring comprehensive unit test coverage (80%+) for report generation code: test structure, coverage requirements, data fixtures, assertions, mock guidelines, and CI/CD integration.
 
 ---
 
