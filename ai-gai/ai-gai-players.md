@@ -17,8 +17,9 @@
 - Josh Snyder
 - Lonnie Sweenie
 - Nathan Shaw
-- Orah Kittrell
 - Sankar Naredla
+## EISG
+- Jay Simmons
 ## Data Science
 - Brandon Bird
 - James Grizzle

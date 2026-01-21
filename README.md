@@ -13,8 +13,18 @@ Foundational documents and high-level resources at the repository root.
 - [ai-experiments-tools.md](ai-experiments-tools.md) — Catalog of AI coding tools experimented with (Claude Code, Windsurf, GitHub Copilot, Gemini tools, etc.) and GenAI apps used for various projects.
 - [ai-experiments-apps.md](ai-experiments-apps.md) — Detailed list of applications built with various AI coding tools, including whiskey-log, taskflow, todoist clones, Connect Four, and work-related apps.
 - [ai-sdd-pitch.md](ai-sdd-pitch.md) — Overview pitch for Spec-Driven Development (SDD) in the context of "vibe coding," including advantages, disadvantages, and the "vibe then verify" approach.
-- [ai-plans.md](ai-plans.md) — Strategic planning framework for AI adoption focused on developer skills (AI fluency, design skills) and workflow transformation (spec-driven development, inputs vs outputs), organized into two prongs: Developer of the Future and Development of the Future.
 - [ai-coding-tools-recommendations.md](ai-coding-tools-recommendations.md) — Claude Code-generated recommendations for AI coding tools to explore next, organized by category (agentic tools, specialized workflow tools, quality/testing specialists, experimental tools) with prioritized suggestions.
+
+---
+
+## GAI Lab Planning (`ai-gai/`)
+
+Resources and planning documents specific to GAI (Generative AI) Lab initiatives and SDD implementation work.
+
+- [ai-gai-lab-plans.md](ai-gai/ai-gai-lab-plans.md) — Strategic framework for AI adoption organized into two prongs: "Developer of the Future" (Lab focus on dev skills, design, critical thinking) and "Development of the Future" (IT focus on AI fluency, SDD workflow, and process inputs).
+- [ai-gai-players.md](ai-gai/ai-gai-players.md) — List of people and teams for POCs and initiatives across GAS Lab, SDLC COE, API COE, EISG, Data Science, and Emerging Tech.
+- [sdd-gai-overview.md](ai-gai/sdd-gai-overview.md) — GAI-focused overview of Spec-Driven Development covering crisis of abundance, determinism, paved path approach, key components (process, constitution, operationalization), and various framework options to consider.
+- [sdd-gai-notes.md](ai-gai/sdd-gai-notes.md) — Meeting notes from GAI Lab discussions on SDD workflow/kit, including Rally integration, constitution elements (skills, instructions, agents, prompts), and scope considerations.
 
 ---
 
@@ -33,8 +43,6 @@ Framing documents that define the problem spaces addressed by the resources.
 ### Resources (`resources/`)
 
 Detailed research, frameworks, and templates organized by problem domain.
-
-- [ai-players.md](dev-of-future/resources/ai-players.md) — List of people and teams for POCs and initiatives across GAS Lab, SDLC COE, API COE, Data Science, and Emerging Tech.
 
 #### Developer Skills (`resources/developer-skills/`)
 
@@ -90,7 +98,6 @@ Resources addressing development workflows and processes in the AI era.
 
 ##### Spec-Driven Development (`resources/development-flows/spec-driven-dev/`)
 
-- [sdd-gai-overview.md](dev-of-future/resources/development-flows/spec-driven-dev/sdd-gai-overview.md) — Overview of Spec-Driven Development, addressing the "crisis of abundance" and the need for determinism in AI-augmented development.
 - [sdd-blueprint.md](dev-of-future/resources/development-flows/spec-driven-dev/sdd-blueprint.md) — General SDD phases synthesized from multiple frameworks (GitHub Spec Kit, Augment Code, AWS Kiro, Zencoder): Constitution, Specification, Technical Planning, Task Decomposition, Implementation, and Continuous Validation.
 - [sdd-frameworks-steps.md](dev-of-future/resources/development-flows/spec-driven-dev/sdd-frameworks-steps.md) — Outline of SDD frameworks and stages, including references to GitHub Spec-Kit.
 - [sdd-scoping-guidance.md](dev-of-future/resources/development-flows/spec-driven-dev/sdd-scoping-guidance.md) — How to apply SDD at different levels and scopes: greenfield/brownfield projects, epics, features, stories, and tasks—adjusting the "altitude" of specifications accordingly.
