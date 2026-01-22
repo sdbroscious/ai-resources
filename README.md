@@ -2,13 +2,36 @@
 
 This repo consolidates work with Generative AI tools—from high-order work like assessing AI coding assistant impact on developer workflows, to app-specific prompts and PRDs for vibe coding.
 
+## Overview
+
+A comprehensive knowledge base containing 55+ documents organized into:
+- **Strategic frameworks** for AI adoption in enterprise development (350+ developers)
+- **Spec-Driven Development (SDD)** methodologies and implementation plans
+- **Developer skills evolution** resources (AI fluency, mentoring, tool selection)
+- **AI workflow analysis** and measurement frameworks
+- **Practical artifacts** including templates, agents, and custom skills
+
+This repository serves as both a reference for AI-augmented software development practices and a working example of "vibe coding" with AI assistants.
+
+---
+
+## Getting Started
+
+**For Technical Leaders:** Start with [reports/explanation-ai-resources-repo-20260112.md](reports/explanation-ai-resources-repo-20260112.md) for a comprehensive overview, then explore [dev-of-future/problem-domains/](dev-of-future/problem-domains/) to understand the three core problem spaces.
+
+**For Developers:** Check out [ai-principles.md](ai-principles.md) and [ai-lessons.md](ai-lessons.md) for context, then dive into [dev-of-future/resources/developer-skills/](dev-of-future/resources/developer-skills/) for practical resources.
+
+**For SDD Implementation:** Review [ai-gai/gai-sdd-overview.md](ai-gai/gai-sdd-overview.md) and explore the comprehensive resources in [dev-of-future/resources/development-flows/spec-driven-dev/](dev-of-future/resources/development-flows/spec-driven-dev/).
+
+**For AI Tool Selection:** See [ai-coding-tools-recommendations.md](ai-coding-tools-recommendations.md) and the detailed selection criteria in [dev-of-future/resources/developer-skills/ai-tool-selection/](dev-of-future/resources/developer-skills/ai-tool-selection/).
+
 ---
 
 ## Root Files
 
 Foundational documents and high-level resources at the repository root.
 
-- [ai-principles.md](ai-principles.md) — Guiding metaphors (Yegge/Kim's "head chef" concept from *Vibe Coding*) and eras of AI coding assistancen (code completion → chat → agentic).
+- [ai-principles.md](ai-principles.md) — Guiding metaphors (Yegge/Kim's "head chef" concept from *Vibe Coding*) and eras of AI coding assistance (code completion → chat → agentic).
 - [ai-lessons.md](ai-lessons.md) — Key lessons learned: rapid tooling/thought pattern change, persistence of SDD, variable developer adoption, and enduring concerns around value/quality/speed.
 - [ai-experiments-tools.md](ai-experiments-tools.md) — Catalog of AI coding tools experimented with (Claude Code, Windsurf, GitHub Copilot, Gemini tools, etc.) and GenAI apps used for various projects.
 - [ai-experiments-apps.md](ai-experiments-apps.md) — Detailed list of applications built with various AI coding tools, including whiskey-log, taskflow, todoist clones, Connect Four, and work-related apps.
@@ -137,23 +160,33 @@ Deep-dive explanatory documents and analysis reports.
 
 ---
 
-## Configuration (`/.github/`)
+## Configuration
 
-Repository configuration, tool-specific instructions, and automation assets.
+Repository configuration, tool-specific instructions, and automation assets for AI coding assistants.
+
+### GitHub Configuration (`.github/`)
+
+Tool-specific instructions and automation workflows.
 
 - [copilot-instructions.md](.github/copilot-instructions.md) — GitHub Copilot instructions describing the repository structure, content patterns (frontier model comparisons, AI-generated content, README as index), key concepts (SDD, AI mentoring framework), writing style, and guidelines for adding new content.
 
-### Agents (`.github/agents/`)
+#### Agents (`.github/agents/`)
 
 Custom agent definitions for repository maintenance and automation tasks.
 
-- [update-readme.md](.github/agents/update-readme.md) — Agent definition for synchronizing the README with repository structure: ensures README accurately reflects all files, directories, and content changes in the repository.
+- [update-readme.md](.github/agents/update-readme.md) — Agent definition for synchronizing the README with repository structure: ensures README accurately reflects all files, directories, and content changes in the repository. Uses Claude Haiku 4.5 to detect and document repository changes.
 
-### Prompts (`.github/prompts/`)
+#### Prompts (`.github/prompts/`)
 
 Custom prompt instructions for automated workflows.
 
 - [update-readme.prompt.md](.github/prompts/update-readme.prompt.md) — Prompt instruction to invoke the README update agent.
+
+### Claude Code Configuration (`.claude/`)
+
+Local configuration for Claude Code CLI.
+
+- `settings.local.json` — Permission settings allowing specific git operations (add, commit, push) and test/tree commands for automated workflows.
 
 ---
 
