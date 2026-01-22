@@ -9,6 +9,8 @@
 - Cris Barnes
 - Isaac Higgins
 - Greg Olmsted
+- Nick Borne
+- Allison Holmstrand
 ## SDLC COE
 - Brian Kraemer
 - Sean Kelner
@@ -26,4 +28,4 @@
 - David Schuler
 - Simran Shrestha
 ## Emerging Tech
-- ?
+- Nathan Drew, Brad Bruesewitz

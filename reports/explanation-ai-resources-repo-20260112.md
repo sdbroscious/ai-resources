@@ -99,10 +99,19 @@ The repository is organized like a research library with clear sections:
 
 ```
 ai-resources/
-├── README.md                    # Main index and navigation
-├── ai-principles.md             # Guiding metaphors and eras of AI coding
-├── ai-lessons.md                # Key lessons learned so far
-├── ai-apps.md                   # Catalog of apps built with various AI tools
+├── README.md                           # Main index and navigation
+├── ai-principles.md                    # Guiding metaphors and eras of AI coding
+├── ai-lessons.md                       # Key lessons learned so far
+├── ai-sdd-pitch.md                     # SDD overview pitch for vibe coding
+├── ai-experiments-apps.md              # Catalog of apps built with various AI tools
+├── ai-experiments-tools.md             # Catalog of AI tools experimented with
+├── ai-coding-tools-recommendations.md  # Claude-generated tool recommendations
+│
+├── ai-gai/                      # GAI Lab-specific planning and SDD work
+│   ├── ai-gai-lab-plans.md      # Two-prong strategy: Developer/Development of Future
+│   ├── ai-gai-players.md        # People and teams for POCs
+│   ├── sdd-gai-overview.md      # GAI-focused SDD overview
+│   └── sdd-gai-notes.md         # Meeting notes from GAI Lab discussions
 │
 ├── dev-of-future/               # Core content section
 │   ├── problem-domains/         # Problem definitions
@@ -121,6 +130,13 @@ ai-resources/
 │       └── miscellaneous/
 │           └── mcp-security.md
 │
+├── reports/                     # Deep-dive explanatory documents
+│   └── explanation-ai-resources-repo-20260112.md
+│
+├── skills/                      # Claude Code custom skills
+│   ├── m3-expressive.md
+│   └── report-unit-tests.md
+│
 └── archive/                     # Historical content
     └── whiskey-log/             # Prompts from vibe-coded app experiments
 ```
@@ -130,6 +146,32 @@ ai-resources/
 2. Read `ai-principles.md` and `ai-lessons.md` for philosophical grounding
 3. Explore `problem-domains/` to understand the challenges
 4. Dive into `resources/` for detailed frameworks and solutions
+
+### GAI Lab Planning Section
+
+The `ai-gai/` directory contains work-specific planning materials for GAI (Generative AI) Lab initiatives:
+
+- **ai-gai-lab-plans.md**: Strategic framework organized into two prongs:
+  - "Developer of the Future" (Lab focus): developer skills, design capabilities, critical thinking
+  - "Development of the Future" (IT focus): AI fluency, SDD workflow, process inputs
+
+- **ai-gai-players.md**: Team roster for POCs across GAS Lab, SDLC COE, API COE, EISG, Data Science, and Emerging Tech
+
+- **sdd-gai-overview.md**: GAI-specific perspective on Spec-Driven Development covering the "crisis of abundance," determinism needs, and various framework options
+
+- **sdd-gai-notes.md**: Working notes from GAI Lab discussions on SDD implementation, including Rally integration plans and "SDD Constitution" concept
+
+This section bridges the general research in `dev-of-future/` with specific implementation planning for the GAI Lab organization.
+
+### Additional Directories
+
+**Skills (`skills/`)**: Custom Claude Code skills for specialized, reusable tasks:
+- **m3-expressive.md**: Skill for applying Google Material 3 Expressive design system
+- **report-unit-tests.md**: Skill for ensuring comprehensive unit test coverage
+
+**Reports (`reports/`)**: Deep-dive explanatory documents like this one, providing comprehensive overviews and analysis.
+
+**Archive (`archive/`)**: Historical content including prompts and PRDs from early vibe-coding experiments with apps like whiskey-log.
 
 ## Key Content Highlights
 
@@ -147,7 +189,7 @@ If you need to take action tomorrow, start here:
 
 If you want to think deeply about the transformation:
 
-1. **Spec-Driven Development Overview** (resources/development-flows/spec-driven-dev/sdd-gai-overview.md): Addresses the "crisis of abundance"—when AI can generate infinite solutions, how do you ensure it generates the *right* one?
+1. **Spec-Driven Development Overview** (ai-gai/sdd-gai-overview.md): Addresses the "crisis of abundance"—when AI can generate infinite solutions, how do you ensure it generates the *right* one?
 
 2. **AI Tools and SDLC** (resources/development-flows/ai-workflows/ai_tools_and_sdlc.md): Comprehensive analysis of how AI is transforming every phase of software development, backed by research and measured impacts.
 
@@ -238,7 +280,7 @@ The repository captures ongoing lessons:
 
 ## The Experimental Side: AI Apps
 
-The `ai-apps.md` file catalogs real applications built with various AI tools:
+The `ai-experiments-apps.md` file catalogs real applications built with various AI tools:
 
 - **whiskey-log**: Full CRUD app vibe-coded with Claude Code
 - **taskflow**: Todoist clone built with Windsurf in one day
@@ -246,6 +288,8 @@ The `ai-apps.md` file catalogs real applications built with various AI tools:
 - **app-from-image-claude**: Claude generated a working CRUD app from just a screenshot
 
 These aren't toy demos—they're functioning applications that demonstrate what's actually possible with current AI coding tools. They serve as existence proofs and learning experiences.
+
+The companion `ai-experiments-tools.md` catalogs all the AI coding tools experimented with (Claude Code, Windsurf, GitHub Copilot, Gemini tools, etc.), providing a historical view of the evolving tooling landscape.
 
 ## What's NOT in This Repository
 
@@ -269,10 +313,11 @@ To clarify scope:
 
 Based on the git history, the repository has gone through several reorganizations:
 
+- **January 2026:** Added `ai-gai/` directory for GAI Lab-specific planning materials, consolidating work-focused SDD planning and team organization
 - **January 2025:** Major restructure around problem domains (commit 8d76b34)
 - Earlier structure was more tool-focused and less problem-focused
 
-The evolution shows increasing sophistication in understanding the problem space. Early content focused on "here's what AI can do," while current content focuses on "here's how to address the challenges AI creates."
+The evolution shows increasing sophistication in understanding the problem space. Early content focused on "here's what AI can do," while current content focuses on "here's how to address the challenges AI creates." The addition of the `ai-gai/` directory reflects the transition from research to active implementation planning.
 
 The repository continues to evolve as:
 - New tools emerge (agentic workflows are still early)
@@ -283,13 +328,15 @@ The repository continues to evolve as:
 
 **If you have 15 minutes:**
 - Read `ai-principles.md` and `ai-lessons.md`
-- Skim the three problem domain files
+- Skim the three problem domain files in `dev-of-future/problem-domains/`
+- Review `ai-gai/ai-gai-lab-plans.md` for the strategic framework
 - Get the mental model of what's changing
 
 **If you have 1 hour:**
-- Read the AI Tool Selection criteria
+- Read the AI Tool Selection criteria in `resources/developer-skills/ai-tool-selection/`
 - Review the AI Code Mentoring framework
-- Explore one section of the SDD resources
+- Explore the GAI Lab planning materials in `ai-gai/`
+- Read one section of the SDD resources in depth
 - Understand both the "what" and the "how"
 
 **If you have a day:**
@@ -313,7 +360,7 @@ Think of these as the "greatest hits":
 3. **problem-domains/developer-skills.md**: Understand the human side
 4. **resources/developer-skills/ai-tool-selection/**: Make tool decisions
 5. **resources/developer-skills/ai-mentoring/ai_code_mentoring.md**: Teach your team
-6. **resources/development-flows/spec-driven-dev/sdd-gai-overview.md**: Understand the workflow transformation
+6. **ai-gai/sdd-gai-overview.md**: Understand the workflow transformation
 7. **resources/development-flows/ai-workflows/ai_tools_and_sdlc.md**: See the complete SDLC impact
 
 ## Questions This Repository Helps You Answer
@@ -371,3 +418,6 @@ The repository provides the frameworks, research, and practical guidance to make
 ---
 
 *This explanation was generated to help you understand the ai-resources repository structure, philosophy, and practical applications. For specific questions about any section, dive into the referenced markdown files. The README.md serves as your navigation hub for deeper exploration.*
+
+*Originally created: January 12, 2026*
+*Last updated: January 21, 2026 - Added ai-gai/ directory section and updated file references*
