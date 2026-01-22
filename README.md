@@ -137,11 +137,23 @@ Deep-dive explanatory documents and analysis reports.
 
 ---
 
-## Agents (`agents/`)
+## Configuration (`/.github/`)
+
+Repository configuration, tool-specific instructions, and automation assets.
+
+- [copilot-instructions.md](.github/copilot-instructions.md) — GitHub Copilot instructions describing the repository structure, content patterns (frontier model comparisons, AI-generated content, README as index), key concepts (SDD, AI mentoring framework), writing style, and guidelines for adding new content.
+
+### Agents (`.github/agents/`)
 
 Custom agent definitions for repository maintenance and automation tasks.
 
-- [update-readme.md](agents/update-readme.md) — Agent definition for synchronizing the README with repository structure: ensures README accurately reflects all files, directories, and content changes in the repository.
+- [update-readme.md](.github/agents/update-readme.md) — Agent definition for synchronizing the README with repository structure: ensures README accurately reflects all files, directories, and content changes in the repository.
+
+### Prompts (`.github/prompts/`)
+
+Custom prompt instructions for automated workflows.
+
+- [update-readme.prompt.md](.github/prompts/update-readme.prompt.md) — Prompt instruction to invoke the README update agent.
 
 ---
 
@@ -151,14 +163,6 @@ Custom Claude Code skills for specialized tasks in this repository.
 
 - [m3-expressive.md](skills/m3-expressive.md) — Claude Code skill for applying Google Material 3 Expressive design system to web pages: design tokens, typography, motion, components, responsive layouts, and accessibility requirements.
 - [report-unit-tests.md](skills/report-unit-tests.md) — Claude Code skill for ensuring comprehensive unit test coverage (80%+) for report generation code: test structure, coverage requirements, data fixtures, assertions, mock guidelines, and CI/CD integration.
-
----
-
-## Configuration (`/.github/`)
-
-Repository configuration and tool-specific instructions.
-
-- [copilot-instructions.md](.github/copilot-instructions.md) — GitHub Copilot instructions describing the repository structure, content patterns (frontier model comparisons, AI-generated content, README as index), key concepts (SDD, AI mentoring framework), writing style, and guidelines for adding new content.
 
 ---
 
