@@ -21,10 +21,12 @@ Foundational documents and high-level resources at the repository root.
 
 Resources and planning documents specific to GAI (Generative AI) Lab initiatives and SDD implementation work.
 
-- [ai-gai-lab-plans.md](ai-gai/ai-gai-lab-plans.md) — Strategic framework for AI adoption organized into two prongs: "Developer of the Future" (Lab focus on dev skills, design, critical thinking) and "Development of the Future" (IT focus on AI fluency, SDD workflow, and process inputs).
-- [ai-gai-players.md](ai-gai/ai-gai-players.md) — List of people and teams for POCs and initiatives across GAS Lab, SDLC COE, API COE, EISG, Data Science, and Emerging Tech.
-- [sdd-gai-overview.md](ai-gai/sdd-gai-overview.md) — GAI-focused overview of Spec-Driven Development covering crisis of abundance, determinism, paved path approach, key components (process, constitution, operationalization), and various framework options to consider.
-- [sdd-gai-notes.md](ai-gai/sdd-gai-notes.md) — Meeting notes from GAI Lab discussions on SDD workflow/kit, including Rally integration, constitution elements (skills, instructions, agents, prompts), and scope considerations.
+- [gai-ai-lab-plans.md](ai-gai/gai-ai-lab-plans.md) — Strategic framework for AI adoption organized into two prongs: "Developer of the Future" (Lab focus on dev skills, design, critical thinking) and "Development of the Future" (IT focus on AI fluency, SDD workflow, and process inputs).
+- [gai-ai-players.md](ai-gai/gai-ai-players.md) — List of people and teams for POCs and initiatives across GAS Lab, SDLC COE, API COE, EISG, Data Science, and Emerging Tech.
+- [gai-sdd-overview.md](ai-gai/gai-sdd-overview.md) — GAI-focused overview of Spec-Driven Development covering crisis of abundance, determinism, paved path approach, key components (process, constitution, operationalization), and various framework options to consider.
+- [gai-sdd-notes.md](ai-gai/gai-sdd-notes.md) — Meeting notes from GAI Lab discussions on SDD workflow/kit, including Rally integration, constitution elements (skills, instructions, agents, prompts), and scope considerations.
+- [gai-ai-feed-beast.md](ai-gai/gai-ai-feed-beast.md) — Analysis of the "yawning void" problem: AI-enabled developers delivering faster than stories arrive, with options for spinning plates, TPM leverage, faster feature cycling, A/B testing, and collaborative story/spec cycles.
+- [gai-ai-user-metrics.md](ai-gai/gai-ai-user-metrics.md) — Framework for measuring individual developer AI tool usage and effectiveness through metrics like total interactions, days active, model usage breakdown, agent vs. ask patterns, and CLI usage.
 
 ---
 
@@ -132,6 +134,14 @@ Resources addressing development workflows and processes in the AI era.
 Deep-dive explanatory documents and analysis reports.
 
 - [explanation-ai-resources-repo-20260112.md](reports/explanation-ai-resources-repo-20260112.md) — Comprehensive explanation of the ai-resources repository: what it is, why it exists, the guiding philosophy (head chef metaphor), three core problem domains (developer skills, development workflows, measuring impact), repository structure, key content highlights, practical applications for different roles, and how to get the most value from the repository.
+
+---
+
+## Agents (`agents/`)
+
+Custom agent definitions for repository maintenance and automation tasks.
+
+- [update-readme.md](agents/update-readme.md) — Agent definition for synchronizing the README with repository structure: ensures README accurately reflects all files, directories, and content changes in the repository.
 
 ---
 
