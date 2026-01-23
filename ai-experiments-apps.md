@@ -32,6 +32,8 @@
 
 - **gh_copilot_metricizer**: Leverages GitHub Copilot metrics data to build a dashboard app. Created with Claude Code. [repo](https://github.gaig.com/dbroscious/gh_copilot_metricizer).
 
+- **ghc_user_dashboard**: Used Claude Code to build a prototype of a dashboard displaying a collection of GitHub Copilot usage metrics by user. [repo](https://github.gaig.com/dbroscious/ghc_user_dashboard).
+
 ## Options
 
 * kroger app idea
