@@ -5,7 +5,9 @@
     - **AI fluency**
         - tooling (GHC, Claude Code, MCP Server)
         - workflow (SDD)
+        - verification?
     - *design skills*
+        - verification?
 - non-technical
     - *critical thinking*
     - *problem solving*
