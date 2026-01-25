@@ -18,7 +18,7 @@
 
 - **whiskey-log-ghc-cli**: Experiment using the whiskey-log prd.md with **Copilot CLI** to recreate the app. [repo](https://github.com/sdbroscious/whiskey-log-ghc-cli).
 
-- **antigravity-todoist**: Created with **Gemini Antigravity** in 2025-11. Modeled on Todoist. [repo](https://github.com/sdbroscious/antigravity-todoist).
+- **antigravity-todoist**: Created with **Gemini Antigravity** in 2025-11. Modified with **Gemini CLI** and **Gemini Conductor** in 2026-01 (Tags feature). Modeled on Todoist. [repo](https://github.com/sdbroscious/antigravity-todoist).
 
 - **task-manager**: Created with **GitHub Spark** in 2025-12. Based on Google Tasks. [repo](https://github.com/sdbroscious/task-manager).
 
