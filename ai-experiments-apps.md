@@ -24,13 +24,15 @@
 
 - **subscription-tracker**: Simple app (inside gemini-cli-demo) created with **Gemini CLI**. [repo](https://github.com/sdbroscious/gemini-cli-demo).
 
+- **todoist-codex**: This is another clone of Todoist, built with **OpenAI Codex CLI** this time. [repo](https://github.com/sdbroscious/todoist-codex).
+
 ### GAIG Repos
 
 - **data-masher**: This app is a dual-interface analytics platform that helps teams analyze Rally project cycle times. It was created mostly with **GitHub Copilot CLI**. [repo](https://github.gaig.com/dbroscious/data-masher).
 
 - **dev-skillerator**: This is a Flask-based web application for managing developer skill evaluations. It was created with **GitHub Copilot CLI**. [repo](https://github.gaig.com/dbroscious/dev-skillerator).
 
-- **gh_copilot_metricizer**: Leverages GitHub Copilot metrics data to build a dashboard app. Created with Claude Code. [repo](https://github.gaig.com/dbroscious/gh_copilot_metricizer).
+- **gh_copilot_metricizer**: Leverages GitHub Copilot metrics data to build a dashboard app focused on engagement metrics. Created with Claude Code. [repo](https://github.gaig.com/dbroscious/gh_copilot_metricizer).
 
 - **ghc_user_dashboard**: Used Claude Code to build a prototype of a dashboard displaying a collection of GitHub Copilot usage metrics by user. [repo](https://github.gaig.com/dbroscious/ghc_user_dashboard).
 
