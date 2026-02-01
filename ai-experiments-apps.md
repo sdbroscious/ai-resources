@@ -38,6 +38,8 @@
 
 ## Options
 
+* obsidian clone
+
 * kroger app idea
     * [Gemini chat](https://gemini.google.com/app/18754f2101144056)
     * [ChatGPT chat](https://chatgpt.com/c/68976d25-ee14-8328-82b9-ddc93d7f7255)
