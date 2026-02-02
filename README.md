@@ -182,12 +182,6 @@ Custom prompt instructions for automated workflows.
 
 - [update-readme.prompt.md](.github/prompts/update-readme.prompt.md) — Prompt instruction to invoke the README update agent.
 
-### Claude Code Configuration (`.claude/`)
-
-Local configuration for Claude Code CLI.
-
-- `settings.local.json` — Permission settings allowing specific git operations (add, commit, push) and test/tree commands for automated workflows.
-
 ---
 
 ## Skills (`skills/`)
