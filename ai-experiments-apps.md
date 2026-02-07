@@ -24,7 +24,11 @@
 
 - **subscription-tracker**: Simple app (inside gemini-cli-demo) created with **Gemini CLI**. [repo](https://github.com/sdbroscious/gemini-cli-demo).
 
-- **todoist-codex**: This is another clone of Todoist, built with **OpenAI Codex CLI** this time. [repo](https://github.com/sdbroscious/todoist-codex).
+- **todoist-codex**: This is another Todoist clone, built with **OpenAI Codex CLI** in 2026-01. Added a tags-plan.md via GitHub Agent HQ, using Claude Opus 4.5 in 2026-02. [repo](https://github.com/sdbroscious/todoist-codex).
+
+- **prompt-comparator**: This is a web app that allows the user to see responses to the same prompt from selected frontier models. It was created with **Gemini CLI**, **Gemini Antigravity**, and **Gemini Conductor** in 2026-02. [repo](https://github.com/sdbroscious/prompt-comparator).
+
+
 
 ### GAIG Repos
 
@@ -37,6 +41,11 @@
 - **ghc_user_dashboard**: Used Claude Code to build a prototype of a dashboard displaying a collection of GitHub Copilot usage metrics by user. [repo](https://github.gaig.com/dbroscious/ghc_user_dashboard).
 
 ## Options
+
+* prompt compare: 
+    * app that feeds the same prompt to multiple AI coding tools and compares the output
+    * app: cli, web, service?
+    * tools: claude, codex, gemini, copilot
 
 * obsidian clone
 
