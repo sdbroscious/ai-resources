@@ -9,7 +9,7 @@
 - talked about
     - story and spec blending
     - spec and plan blending
-- Matt expressed his preference for "SDD Consitution" over "SDD Kit"
+- Matt expressed his preference for "SDD Constitution" over "SDD Kit"
 - roughed out SDD constitution
     - skills
     - instructions
