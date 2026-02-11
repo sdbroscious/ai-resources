@@ -11,7 +11,7 @@
 ### using
 - total interactions
 - days active
-- average interations (total interactions / days active)
+- average interactions (total interactions / days active)
 - premium requests total
 - premium requests per days active?
 

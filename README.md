@@ -19,37 +19,48 @@ This repository serves as both a reference for AI-augmented software development
 
 **For Technical Leaders:** Start with [reports/explanation-ai-resources-repo-20260112.md](reports/explanation-ai-resources-repo-20260112.md) for a comprehensive overview, then explore [dev-of-future/problem-domains/](dev-of-future/problem-domains/) to understand the three core problem spaces.
 
-**For Developers:** Check out [ai-principles.md](ai-principles.md) and [ai-lessons.md](ai-lessons.md) for context, then dive into [dev-of-future/resources/developer-skills/](dev-of-future/resources/developer-skills/) for practical resources.
+**For Developers:** Check out [docs/ai-principles.md](docs/ai-principles.md) and [docs/ai-lessons.md](docs/ai-lessons.md) for context, then dive into [dev-of-future/resources/developer-skills/](dev-of-future/resources/developer-skills/) for practical resources.
 
-**For SDD Implementation:** Review [ai-gai/gai-sdd-overview.md](ai-gai/gai-sdd-overview.md) and explore the comprehensive resources in [dev-of-future/resources/development-flows/spec-driven-dev/](dev-of-future/resources/development-flows/spec-driven-dev/).
+**For SDD Implementation:** Review [organization/gaig/gai-sdd-overview.md](organization/gaig/gai-sdd-overview.md) and explore the comprehensive resources in [dev-of-future/resources/development-flows/spec-driven-dev/](dev-of-future/resources/development-flows/spec-driven-dev/).
 
-**For AI Tool Selection:** See [ai-coding-tools-recommendations.md](ai-coding-tools-recommendations.md) and the detailed selection criteria in [dev-of-future/resources/developer-skills/ai-tool-selection/](dev-of-future/resources/developer-skills/ai-tool-selection/).
-
----
-
-## Root Files
-
-Foundational documents and high-level resources at the repository root.
-
-- [ai-principles.md](ai-principles.md) — Guiding metaphors (Yegge/Kim's "head chef" concept from *Vibe Coding*) and eras of AI coding assistance (code completion → chat → agentic).
-- [ai-lessons.md](ai-lessons.md) — Key lessons learned: rapid tooling/thought pattern change, persistence of SDD, variable developer adoption, and enduring concerns around value/quality/speed.
-- [ai-experiments-tools.md](ai-experiments-tools.md) — Catalog of AI coding tools experimented with (Claude Code, Windsurf, GitHub Copilot, Gemini tools, etc.) and GenAI apps used for various projects.
-- [ai-experiments-apps.md](ai-experiments-apps.md) — Detailed list of applications built with various AI coding tools, including whiskey-log, taskflow, todoist clones, Connect Four, and work-related apps.
-- [ai-sdd-pitch.md](ai-sdd-pitch.md) — Overview pitch for Spec-Driven Development (SDD) in the context of "vibe coding," including advantages, disadvantages, and the "vibe then verify" approach.
-- [ai-coding-tools-recommendations.md](ai-coding-tools-recommendations.md) — Claude Code-generated recommendations for AI coding tools to explore next, organized by category (agentic tools, specialized workflow tools, quality/testing specialists, experimental tools) with prioritized suggestions.
+**For AI Tool Selection:** See [docs/coding-tools-recommendations.md](docs/coding-tools-recommendations.md) and the detailed selection criteria in [dev-of-future/resources/developer-skills/ai-tool-selection/](dev-of-future/resources/developer-skills/ai-tool-selection/).
 
 ---
 
-## GAI Lab Planning (`ai-gai/`)
+## Documentation (`docs/`)
 
-Resources and planning documents specific to GAI (Generative AI) Lab initiatives and SDD implementation work.
+Foundational documents and high-level resources for understanding AI-augmented software development.
 
-- [gai-ai-lab-plans.md](ai-gai/gai-ai-lab-plans.md) — Strategic framework for AI adoption organized into two prongs: "Developer of the Future" (Lab focus on dev skills, design, critical thinking) and "Development of the Future" (IT focus on AI fluency, SDD workflow, and process inputs).
-- [gai-ai-players.md](ai-gai/gai-ai-players.md) — List of people and teams for POCs and initiatives across GAS Lab, SDLC COE, API COE, EISG, Data Science, and Emerging Tech.
-- [gai-sdd-overview.md](ai-gai/gai-sdd-overview.md) — GAI-focused overview of Spec-Driven Development covering crisis of abundance, determinism, paved path approach, key components (process, constitution, operationalization), and various framework options to consider.
-- [gai-sdd-notes.md](ai-gai/gai-sdd-notes.md) — Meeting notes from GAI Lab discussions on SDD workflow/kit, including Rally integration, constitution elements (skills, instructions, agents, prompts), and scope considerations.
-- [gai-ai-feed-beast.md](ai-gai/gai-ai-feed-beast.md) — Analysis of the "yawning void" problem: AI-enabled developers delivering faster than stories arrive, with options for spinning plates, TPM leverage, faster feature cycling, A/B testing, and collaborative story/spec cycles.
-- [gai-ai-user-metrics.md](ai-gai/gai-ai-user-metrics.md) — Framework for measuring individual developer AI tool usage and effectiveness through metrics like total interactions, days active, model usage breakdown, agent vs. ask patterns, and CLI usage.
+- [ai-principles.md](docs/ai-principles.md) — Guiding metaphors (Yegge/Kim's "head chef" concept from *Vibe Coding*) and eras of AI coding assistance (code completion → chat → agentic).
+- [ai-lessons.md](docs/ai-lessons.md) — Key lessons learned: rapid tooling/thought pattern change, persistence of SDD, variable developer adoption, and enduring concerns around value/quality/speed.
+- [sdd-pitch.md](docs/sdd-pitch.md) — Overview pitch for Spec-Driven Development (SDD) in the context of "vibe coding," including advantages, disadvantages, and the "vibe then verify" approach.
+- [coding-tools-recommendations.md](docs/coding-tools-recommendations.md) — Claude Code-generated recommendations for AI coding tools to explore next, organized by category (agentic tools, specialized workflow tools, quality/testing specialists, experimental tools) with prioritized suggestions.
+
+---
+
+## Experiments (`experiments/`)
+
+Catalog of AI coding tools and applications experimented with.
+
+- [tools.md](experiments/tools.md) — Catalog of AI coding tools experimented with (Claude Code, Windsurf, GitHub Copilot, Gemini tools, etc.) and GenAI apps used for various projects.
+- [apps.md](experiments/apps.md) — Detailed list of applications built with various AI coding tools, including whiskey-log, taskflow, todoist clones, Connect Four, and work-related apps.
+
+---
+
+## Organization-Specific Resources (`organization/`)
+
+Resources and planning documents specific to organizational AI adoption initiatives.
+
+### GAIG (Generative AI Group) - `organization/gaig/`
+
+Resources specific to GAI (Generative AI) Lab initiatives and SDD implementation work at GAIG.
+
+- [gai-ai-lab-plans.md](organization/gaig/gai-ai-lab-plans.md) — Strategic framework for AI adoption organized into two prongs: "Developer of the Future" (Lab focus on dev skills, design, critical thinking) and "Development of the Future" (IT focus on AI fluency, SDD workflow, and process inputs).
+- [gai-ai-players.md](organization/gaig/gai-ai-players.md) — List of people and teams for POCs and initiatives across GAS Lab, SDLC COE, API COE, EISG, Data Science, and Emerging Tech.
+- [gai-sdd-overview.md](organization/gaig/gai-sdd-overview.md) — GAI-focused overview of Spec-Driven Development covering crisis of abundance, determinism, paved path approach, key components (process, constitution, operationalization), and various framework options to consider.
+- [gai-sdd-notes.md](organization/gaig/gai-sdd-notes.md) — Meeting notes from GAI Lab discussions on SDD workflow/kit, including Rally integration, constitution elements (skills, instructions, agents, prompts), and scope considerations.
+- [gai-ai-feed-beast.md](organization/gaig/gai-ai-feed-beast.md) — Analysis of the "yawning void" problem: AI-enabled developers delivering faster than stories arrive, with options for spinning plates, TPM leverage, faster feature cycling, A/B testing, and collaborative story/spec cycles.
+- [gai-ai-user-metrics.md](organization/gaig/gai-ai-user-metrics.md) — Framework for measuring individual developer AI tool usage and effectiveness through metrics like total interactions, days active, model usage breakdown, agent vs. ask patterns, and CLI usage.
 
 ---
 
