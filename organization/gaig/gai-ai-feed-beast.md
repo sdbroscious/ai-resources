@@ -7,11 +7,11 @@
 ## options
 - spinning plates
 - TPM leverage AI tooling
-- TPM/PO faster feature cyclinh
+- TPM/PO faster feature cycling
 - greater variation
     - A/B testing
     - prototype any/all ideas
 - collaboration re story > specification cycle
 
 ## filling the void
-- need to mind that what we do allows TPMs to continue to create newrefined stories
+- need to mind that what we do allows TPMs to continue to create new refined stories
