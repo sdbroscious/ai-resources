@@ -2,7 +2,7 @@
 
 ## AI Coding Tools
 
-> See [ai-experiments-apps.md](https://github.com/sdbroscious/ai-resources/blob/main/ai-experiments-apps.md) for details of some apps built with these tools.
+> See [apps.md](apps.md) for details of some apps built with these tools.
 
 * Claude Code
 * Claude (not Code)

@@ -4,16 +4,32 @@ This repository consolidates research, frameworks, and resources for AI-augmente
 
 ## Repository Structure
 
+### `docs/` - Foundational Documentation
+Foundational documents and high-level resources:
+- `ai-principles.md` - Guiding metaphors and AI coding assistance eras
+- `ai-lessons.md` - Key lessons learned
+- `sdd-pitch.md` - Spec-Driven Development overview pitch
+- `coding-tools-recommendations.md` - AI coding tool recommendations
+
+### `experiments/` - AI Tool Experiments
+Catalog of AI coding tools and applications experimented with:
+- `tools.md` - AI coding tools tested (Claude Code, Windsurf, GitHub Copilot, etc.)
+- `apps.md` - Applications built with AI tools
+
+### `organization/` - Organization-Specific Resources
+Resources specific to organizational AI adoption initiatives:
+- `gaig/` - GAI (Generative AI) Lab planning documents and implementation strategies
+
 ### `dev-of-future/` - Developer of the Future Research
 Research and frameworks for AI-augmented development, organized by topic:
-- `ai-mentoring/` - Team coaching frameworks (10-5-10 pattern, scaling AI skills)
-- `ai-tool-selection/` - Criteria for evaluating AI coding assistants
-- `ai-workflows/` - SDLC impact analysis and measurement plans
-- `design-skills/` - Developer skills improvement plans
-- `spec-driven-dev/` - Spec-Driven Development (SDD) frameworks and implementation guides
+- `resources/developer-skills/ai-mentoring/` - Team coaching frameworks (10-5-10 pattern, scaling AI skills)
+- `resources/developer-skills/ai-tool-selection/` - Criteria for evaluating AI coding assistants
+- `resources/development-flows/ai-workflows/` - SDLC impact analysis and measurement plans
+- `resources/developer-skills/design-skills/` - Developer skills improvement plans
+- `resources/development-flows/spec-driven-dev/` - Spec-Driven Development (SDD) frameworks and implementation guides
 
-### `whiskey-log/` - App Development Prompts
-PRDs and prompts for "vibe-coded" applications. The main app lives in a [separate repo](https://github.com/sdbroscious/whiskey-log).
+### `archive/` - Archived Content
+- `whiskey-log/` - PRDs and prompts for "vibe-coded" applications. The main app lives in a [separate repo](https://github.com/sdbroscious/whiskey-log).
 
 ## Content Patterns
 
@@ -39,14 +55,14 @@ Each major directory should have a README.md explaining file purposes and evolut
 
 ### Spec-Driven Development (SDD)
 A core theme: using structured specifications as context for AI coding tools. Key files:
-- [sdd-gai-overview.md](dev-of-future/spec-driven-dev/sdd-gai-overview.md) - Overview and open questions
-- [SpecDrivenDevelopment Plan (Claude).md](dev-of-future/spec-driven-dev/frontier-model-takes/SpecDrivenDevelopment%20Plan%20(Claude).md) - Comprehensive implementation guide
+- [organization/gaig/gai-sdd-overview.md](organization/gaig/gai-sdd-overview.md) - Overview and open questions
+- [dev-of-future/resources/development-flows/spec-driven-dev/frontier-model-takes/SpecDrivenDevelopment Plan (Claude).md](dev-of-future/resources/development-flows/spec-driven-dev/frontier-model-takes/SpecDrivenDevelopment%20Plan%20(Claude).md) - Comprehensive implementation guide
 
 ### AI Mentoring Framework
 The 10-5-10 coaching pattern for scaling AI coding skills:
 - 10 min demo → 5 min guided practice → 10 min independent challenge
 - Emphasizes "Aha! moments" through guided discovery, not feature lectures
-- See [ai_code_mentoring.md](dev-of-future/ai-mentoring/ai_code_mentoring.md)
+- See [dev-of-future/resources/developer-skills/ai-mentoring/ai_code_mentoring.md](dev-of-future/resources/developer-skills/ai-mentoring/ai_code_mentoring.md)
 
 ## Writing Style
 
