@@ -26,7 +26,7 @@
 
 - **todoist-codex**: This is another Todoist clone, built with **OpenAI Codex CLI** in 2026-01. Added a tags-plan.md via GitHub Agent HQ, using Claude Opus 4.5 in 2026-02. [repo](https://github.com/sdbroscious/todoist-codex).
 
-- **prompt-comparator**: This is a web app that allows the user to see responses to the same prompt from selected frontier models. It was created with **Gemini CLI**, **Gemini Antigravity**, and **Gemini Conductor** in 2026-02. [repo](https://github.com/sdbroscious/prompt-comparator).
+- **prompt-comparator**: This is a web app that allows the user to see responses to the same prompt from selected frontier models. It was created with **Gemini CLI**, **Gemini Antigravity**, and **Gemini Conductor** in 2026-02. Since the start of this I've also added **Codex** into the mix. [repo](https://github.com/sdbroscious/prompt-comparator).
 
 
 
