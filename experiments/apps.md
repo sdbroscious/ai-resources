@@ -34,7 +34,7 @@
 
 - **data-masher**: This app is a dual-interface analytics platform that helps teams analyze Rally project cycle times. It was created mostly with **GitHub Copilot CLI**. [repo](https://github.gaig.com/dbroscious/data-masher).
 
-- **dev-skillerator**: This is a Flask-based web application for managing developer skill evaluations. It was created with **GitHub Copilot CLI**. [repo](https://github.gaig.com/dbroscious/dev-skillerator).
+- **dev-skillerator**: This is a Flask-based web application for managing developer skill evaluations. It was created with **GitHub Copilot CLI**. After getting to a stable version, I did make updates using **Fission-AI OpenSpec**. [repo](https://github.gaig.com/dbroscious/dev-skillerator).
 
 - **gh_copilot_metricizer**: Leverages GitHub Copilot metrics data to build a dashboard app focused on engagement metrics. Created with Claude Code. [repo](https://github.gaig.com/dbroscious/gh_copilot_metricizer).
 
