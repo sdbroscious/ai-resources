@@ -4,7 +4,7 @@ This repo consolidates work with Generative AI tools—from high-order work like
 
 ## Overview
 
-A comprehensive knowledge base containing 55+ documents organized into:
+A comprehensive knowledge base containing 60+ documents organized into:
 - **Strategic frameworks** for AI adoption in enterprise development (350+ developers)
 - **Spec-Driven Development (SDD)** methodologies and implementation plans
 - **Developer skills evolution** resources (AI fluency, mentoring, tool selection)
@@ -156,6 +156,7 @@ Resources addressing development workflows and processes in the AI era.
 ###### Claude Cowork (`resources/development-flows/spec-driven-dev/claude-cowork/`)
 
 - [sdd-plan.md](dev-of-future/resources/development-flows/spec-driven-dev/claude-cowork/sdd-plan.md) — Unified Spec-Driven Development workflow synthesizing insights from multiple frameworks: five-layer architecture (Specification, Generation, Artifact, Validation, Runtime), three-artifact workflow (Requirements, Technical Spec, Implementation Plan), phased execution model with RED/GREEN/VERIFY loops, human-AI collaboration patterns, and drift detection mechanisms.
+- [sdd-workflow-diagram.mermaid](dev-of-future/resources/development-flows/spec-driven-dev/claude-cowork/sdd-workflow-diagram.mermaid) — Mermaid diagram visualizing the SDD workflow.
 
 #### Miscellaneous (`resources/miscellaneous/`)
 
@@ -181,26 +182,15 @@ Tool-specific instructions and automation workflows.
 
 - [copilot-instructions.md](.github/copilot-instructions.md) — GitHub Copilot instructions describing the repository structure, content patterns (frontier model comparisons, AI-generated content, README as index), key concepts (SDD, AI mentoring framework), writing style, and guidelines for adding new content.
 
-#### Agents (`.github/agents/`)
-
-Custom agent definitions for repository maintenance and automation tasks.
-
-- [update-readme.md](.github/agents/update-readme.md) — Agent definition for synchronizing the README with repository structure: ensures README accurately reflects all files, directories, and content changes in the repository. Uses Claude Haiku 4.5 to detect and document repository changes.
-
-#### Prompts (`.github/prompts/`)
-
-Custom prompt instructions for automated workflows.
-
-- [update-readme.prompt.md](.github/prompts/update-readme.prompt.md) — Prompt instruction to invoke the README update agent.
-
 ---
 
-## Skills (`skills/`)
+## AI Skills (`ai-skills/`)
 
-Custom Claude Code skills for specialized tasks in this repository.
+Custom skills for specialized tasks. Each skill is organized in its own subdirectory with a `skill.md` definition file.
 
-- [m3-expressive.md](skills/m3-expressive.md) — Claude Code skill for applying Google Material 3 Expressive design system to web pages: design tokens, typography, motion, components, responsive layouts, and accessibility requirements.
-- [report-unit-tests.md](skills/report-unit-tests.md) — Claude Code skill for ensuring comprehensive unit test coverage (80%+) for report generation code: test structure, coverage requirements, data fixtures, assertions, mock guidelines, and CI/CD integration.
+- [m3-expressive/skill.md](ai-skills/m3-expressive/skill.md) — Claude Code skill for applying Google Material 3 Expressive design system to web pages: design tokens, typography, motion, components, responsive layouts, and accessibility requirements.
+- [report-unit-tests/skill.md](ai-skills/report-unit-tests/skill.md) — Claude Code skill for ensuring comprehensive unit test coverage (80%+) for report generation code: test structure, coverage requirements, data fixtures, assertions, mock guidelines, and CI/CD integration.
+- [update-readme/skill.md](ai-skills/update-readme/skill.md) — Claude Code skill for keeping `README.md` synchronized with repository state: asks clarifying questions, reconciles structure/content changes, and fixes stale links or descriptions.
 
 ---
 
