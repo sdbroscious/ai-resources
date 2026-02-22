@@ -186,11 +186,9 @@ Tool-specific instructions and automation workflows.
 
 ## AI Skills (`ai-skills/`)
 
-Custom skills for specialized tasks. Each skill is organized in its own subdirectory with a `skill.md` definition file.
+Custom skill definitions for specialized maintenance tasks. Skills are organized in subdirectories with a `SKILL.md` definition file.
 
-- [m3-expressive/skill.md](ai-skills/m3-expressive/skill.md) — Claude Code skill for applying Google Material 3 Expressive design system to web pages: design tokens, typography, motion, components, responsive layouts, and accessibility requirements.
-- [report-unit-tests/skill.md](ai-skills/report-unit-tests/skill.md) — Claude Code skill for ensuring comprehensive unit test coverage (80%+) for report generation code: test structure, coverage requirements, data fixtures, assertions, mock guidelines, and CI/CD integration.
-- [update-readme/skill.md](ai-skills/update-readme/skill.md) — Claude Code skill for keeping `README.md` synchronized with repository state: asks clarifying questions, reconciles structure/content changes, and fixes stale links or descriptions.
+- [update-readme/SKILL.md](ai-skills/update-readme/SKILL.md) — Skill for keeping `README.md` synchronized with repository state: asks clarifying questions, reconciles structure/content changes, and fixes stale links or descriptions.
 
 ---
 
@@ -205,4 +203,3 @@ Prompts and PRDs related to the [whiskey-log app](https://github.com/sdbroscious
 - [prompt.md](archive/whiskey-log/prompt.md) — Original PRD/prompt for the whiskey log app (now superseded by prd.md in the main app repo).
 - [architecture_assessment_prompt.md](archive/whiskey-log/architecture_assessment_prompt.md) — Template for assessing application architecture: system overview, technical architecture, quality attributes, data architecture, development practices, and operational excellence.
 - [claude_output_unit_tests.md](archive/whiskey-log/claude_output_unit_tests.md) — Claude-generated unit test outputs.
-

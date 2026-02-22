@@ -1,3 +1,8 @@
+---
+name: update-readme
+description: Keep the `README.md` file synchronized with the current repository structure and contents.
+---
+
 # README Update Skill
 
 Keep `README.md` synchronized with the current repository structure and contents.
@@ -12,6 +17,7 @@ When this skill is invoked, follow this workflow:
 4. Preserve existing style and organization unless the user asks for restructuring.
 5. Verify every referenced path in `README.md` exists and descriptions are accurate and concise.
 6. Call out notable gaps or ambiguities you cannot resolve from repository state alone.
+7. When it makes sense, create or update architecture diagrams for the repo contents. Store these in docs/architecture.
 
 ## Output Requirements
 
