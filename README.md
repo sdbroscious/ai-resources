@@ -31,10 +31,12 @@ This repository serves as both a reference for AI-augmented software development
 
 Foundational documents and high-level resources for understanding AI-augmented software development.
 
+- [README.md](docs/README.md) — Index for the `docs/` directory with links and quick context for foundational materials.
 - [ai-principles.md](docs/ai-principles.md) — Guiding metaphors (Yegge/Kim's "head chef" concept from *Vibe Coding*) and eras of AI coding assistance (code completion → chat → agentic).
 - [ai-lessons.md](docs/ai-lessons.md) — Key lessons learned: rapid tooling/thought pattern change, persistence of SDD, variable developer adoption, and enduring concerns around value/quality/speed.
 - [sdd-pitch.md](docs/sdd-pitch.md) — Overview pitch for Spec-Driven Development (SDD) in the context of "vibe coding," including advantages, disadvantages, and the "vibe then verify" approach.
 - [coding-tools-recommendations.md](docs/coding-tools-recommendations.md) — Claude Code-generated recommendations for AI coding tools to explore next, organized by category (agentic tools, specialized workflow tools, quality/testing specialists, experimental tools) with prioritized suggestions.
+- [tests-eval.md](docs/tests-eval.md) — Latest generated test-suite quality evaluation report produced by the `test-quality-evaluator` skill.
 
 ---
 
@@ -188,6 +190,7 @@ Tool-specific instructions and automation workflows.
 
 Custom skill definitions for specialized maintenance tasks. Skills are organized in subdirectories with a `SKILL.md` definition file.
 
+- [test-quality-evaluator/SKILL.md](ai-skills/test-quality-evaluator/SKILL.md) — Skill for auditing repository test quality with two independent model evaluations and writing a synthesized report to `docs/tests-eval.md`.
 - [update-readme/SKILL.md](ai-skills/update-readme/SKILL.md) — Skill for keeping `README.md` synchronized with repository state: asks clarifying questions, reconciles structure/content changes, and fixes stale links or descriptions.
 
 ---
