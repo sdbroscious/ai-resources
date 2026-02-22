@@ -1,6 +1,7 @@
 ---
 name: test-quality-evaluator
-description: Evaluate a project's test-suite quality using two-model comparative review and produce a single report in `docs/tests-eval.md`. Use when the user asks for test-quality assessment, test audit, coverage confidence analysis, or model-based review of tests. Select model pairs by active agent - Codex uses `gpt-5.3-codex` + `gpt-5.2-codex` (both medium), Claude uses `opus` + `sonnet`, and Copilot uses `Claude Opus 4.6` + `GPT-5.2-Codex`.
+description: Evaluate a project's test-suite quality using two-model comparative review and produce a single report in `docs/tests-eval.md`. Use when the user asks for test-quality assessment, test audit, coverage confidence analysis, or model-based review of tests. Allows the user to select model pairs valid for the active agent.
+user-invocable: true
 ---
 
 # Test Quality Evaluator
@@ -11,23 +12,15 @@ Evaluate the quality of a repository's tests by running two independent model as
 
 1. Inspect the test surface before scoring.
 2. Read `references/rubric.md` and score against each rubric dimension.
-3. Run two independent evaluations using the model pair for the active agent:
-   - Codex:
-     - `gpt-5.3-codex` (`medium`)
-     - `gpt-5.2-codex` (`medium`)
-   - Claude:
-     - `opus`
-     - `sonnet`
-   - Copilot:
-     - `Claude Opus 4.6`
-     - `GPT-5.2-Codex`
-4. Keep the two model passes independent until synthesis.
-5. Synthesize agreements and disagreements into one final report.
-6. Write the report to a markdown file in `docs`, with a filename of 'tests-eval' + date-time suffix.
+3. Run two independent evaluations using a model pair.
+4. The user will select the model pair from a complete list of the coding agent's valid models.
+5. Keep the two model passes independent until synthesis.
+6. Synthesize agreements and disagreements into one final report.
+7. Write the report to a markdown file in `docs`, with a filename of 'tests-eval' + date-time suffix.
 
 ## Required Output File
 
-Always overwrite `docs/tests-eval.md` with:
+The report file must include the following:
 
 1. Metadata section:
    - date (ISO format)
