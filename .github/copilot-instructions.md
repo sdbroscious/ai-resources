@@ -2,6 +2,10 @@
 
 This repository consolidates research, frameworks, and resources for AI-augmented software development. It is a **documentation-only repository** with no code to build or test.
 
+## Token Usage
+
+- for every response, append the total token usage to docs/metrics/token-usage.md and docs/metrics/token-usage.csv; for each response, capture date, task, model, tokens in, and tokens out; create the files, if they doesn't exist
+
 ## Repository Structure
 
 ### `docs/` - Foundational Documentation
