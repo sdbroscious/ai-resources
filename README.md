@@ -186,12 +186,26 @@ Tool-specific instructions and automation workflows.
 
 ---
 
+## AI Instructions (`ai-instructions/`)
+
+Alternate location for AI coding assistant instructions, mirroring `.github/` location for tools that prefer this path.
+
+- [copilot-instructions.md](ai-instructions/copilot-instructions.md) — Copy of GitHub Copilot instructions (identical to `.github/copilot-instructions.md`).
+
+---
+
 ## AI Skills (`ai-skills/`)
 
 Custom skill definitions for specialized maintenance tasks. Skills are organized in subdirectories with a `SKILL.md` definition file.
 
-- [test-quality-evaluator/SKILL.md](ai-skills/test-quality-evaluator/SKILL.md) — Skill for auditing repository test quality with two independent model evaluations and writing a synthesized report to `docs/tests-eval.md`.
-- [update-readme/SKILL.md](ai-skills/update-readme/SKILL.md) — Skill for keeping `README.md` synchronized with repository state: asks clarifying questions, reconciles structure/content changes, and fixes stale links or descriptions.
+### Test Quality Evaluator (`ai-skills/test-quality-evaluator/`)
+
+- [SKILL.md](ai-skills/test-quality-evaluator/SKILL.md) — Skill for auditing repository test quality with two independent model evaluations and writing a synthesized report to `docs/tests-eval.md`.
+- [references/rubric.md](ai-skills/test-quality-evaluator/references/rubric.md) — Evaluation rubric used by the test quality evaluator skill.
+
+### Update README (`ai-skills/update-readme/`)
+
+- [SKILL.md](ai-skills/update-readme/SKILL.md) — Skill for keeping `README.md` synchronized with repository state: asks clarifying questions, reconciles structure/content changes, and fixes stale links or descriptions.
 
 ---
 
