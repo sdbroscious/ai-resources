@@ -4,7 +4,7 @@
 - technical
     - AI literacy
         - AI tool fluency
-        - AI workflow (SDD)
+        - AI workflow (SDD, agent orchestration)
     - system design/architecture
 - non-technical
     - critical thinking

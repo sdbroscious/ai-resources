@@ -16,7 +16,7 @@
 * GitHub Copilot
 * Claude Code for VS Code
 * Codex - OpenAI's coding agent
-* Gemini Code ASsist
+* Gemini Code Assist
 
 ### AI IDES
 
