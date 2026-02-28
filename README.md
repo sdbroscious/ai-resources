@@ -13,9 +13,6 @@ The repository is organized into six primary content areas:
 - [experiments/](experiments/) - Tool and app experimentation logs.
 - [x-archive/](x-archive/) - Archived historical prompts and outputs.
 
-Supporting note:
-- [docs/REORGANIZATION_SUMMARY.md](docs/REORGANIZATION_SUMMARY.md) - Historical summary of a prior repository reorganization.
-
 ## Start Here
 
 - Foundational context: [axioms/README.md](axioms/README.md)
@@ -106,6 +103,10 @@ Spec-Driven Development:
   - [SpecDrivenDevelopment Plan (Claude).md](dev-of-future/resources/development-flows/spec-driven-dev/frontier-model-takes/SpecDrivenDevelopment%20Plan%20%28Claude%29.md)
   - [SpecDrivenDevelopment Plan (Gemini).md](dev-of-future/resources/development-flows/spec-driven-dev/frontier-model-takes/SpecDrivenDevelopment%20Plan%20%28Gemini%29.md)
 - [images/](dev-of-future/resources/development-flows/spec-driven-dev/images/)
+  - [sdd-maturity.png](dev-of-future/resources/development-flows/spec-driven-dev/images/sdd-maturity.png)
+  - [sdd-pros-cons.png](dev-of-future/resources/development-flows/spec-driven-dev/images/sdd-pros-cons.png)
+  - [sdd-steps-1.png](dev-of-future/resources/development-flows/spec-driven-dev/images/sdd-steps-1.png)
+  - [sdd-steps-2.png](dev-of-future/resources/development-flows/spec-driven-dev/images/sdd-steps-2.png)
 
 #### Resources: Miscellaneous (`dev-of-future/resources/miscellaneous/`)
 
