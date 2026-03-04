@@ -40,6 +40,7 @@
 * ChatGPT Atlas
 * Perplexity Comet
 * Chrome/Gemini
+* Chrome/Claude extension
 * Edge/MS Copilot
 
 ## 3. GenAI Apps
