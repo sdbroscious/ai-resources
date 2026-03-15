@@ -7,7 +7,7 @@ A curated repository of resources for AI-augmented software development: princip
 The repository is organized into six primary content areas:
 
 - [axioms/](axioms/) - Foundational concepts and framing docs.
-- [dev-of-future/](dev-of-future/) - Problem domains and detailed research artifacts.
+- [dev-of-future/](dev-of-future/) - Problem domains, reference materials, and metrics research.
 - [ai-constructs/](ai-constructs/) - AI assistant instructions and reusable skills.
 - [organization/](organization/) - Organization-specific planning materials.
 - [experiments/](experiments/) - Tool and app experimentation logs.
@@ -107,6 +107,17 @@ Spec-Driven Development:
   - [sdd-pros-cons.png](dev-of-future/resources/development-flows/spec-driven-dev/images/sdd-pros-cons.png)
   - [sdd-steps-1.png](dev-of-future/resources/development-flows/spec-driven-dev/images/sdd-steps-1.png)
   - [sdd-steps-2.png](dev-of-future/resources/development-flows/spec-driven-dev/images/sdd-steps-2.png)
+
+#### Resources: Metrics (`dev-of-future/resources/metrics/`)
+
+AI code contribution:
+- [01. copilot-loc-metrics-and-ai-contribution-measurement.md](dev-of-future/resources/metrics/ai-code-contribution/01.%20copilot-loc-metrics-and-ai-contribution-measurement.md)
+- [02. ai-coding-metrics-data-collection.md](dev-of-future/resources/metrics/ai-code-contribution/02.%20ai-coding-metrics-data-collection.md)
+- [03. ghc_loc_churn.md](dev-of-future/resources/metrics/ai-code-contribution/03.%20ghc_loc_churn.md)
+- [04. measureing-the-ai-code-shift.md](dev-of-future/resources/metrics/ai-code-contribution/04.%20measureing-the-ai-code-shift.md)
+- [05. ai-code-measure-hard.md](dev-of-future/resources/metrics/ai-code-contribution/05.%20ai-code-measure-hard.md)
+- [06. floor-estimate.md](dev-of-future/resources/metrics/ai-code-contribution/06.%20floor-estimate.md)
+- [07. ai-code-overview.md](dev-of-future/resources/metrics/ai-code-contribution/07.%20ai-code-overview.md)
 
 #### Resources: Miscellaneous (`dev-of-future/resources/miscellaneous/`)
 
