@@ -61,9 +61,10 @@
 * **Gemini**
 
 * **NotebookLM**
-	* AI: SDLC Impacts (notebook)
-	* AI: Developer of the Future (notebook)
-	* AI: Coding with AI Assistants (notebook)
+	* AI SDLC (notebook)
+	* AI Developer (notebook)
+	* AI Coding (notebook)
+ 	* Agile Coding (notebook)	
 	* haiku: bare bones (notebook)
 	* haiku: art & craft (notebook)
 	* Amsterdam 2026
