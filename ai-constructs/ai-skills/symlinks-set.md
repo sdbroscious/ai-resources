@@ -11,6 +11,11 @@ ln -s ~/workspace/ai-resources/ai-constructs/ai-skills/update-readme ~/.copilot/
 
 ln -s ~/workspace/ai-resources/ai-constructs/ai-skills/commit-scratch ~/.copilot/skills/commit-scratch
 
+## codex
+ln -s ~/workspace/ai-resources/ai-constructs/ai-skills/update-readme ~/.codex/skills/update-readme
+
+ln -s ~/workspace/ai-resources/ai-constructs/ai-skills/commit-scratch ~/.codex/skills/commit-scratch
+
 ## claude
 ln -s ~/workspace/ai-resources/ai-constructs/ai-skills/update-readme ~/.claude/skills/update-readme
 

@@ -49,6 +49,7 @@ AI mentoring:
 AI tool selection:
 - [tools_six_dimenations.md](dev-of-future/resources/developer-skills/ai-tool-selection/tools_six_dimenations.md)
 - [ai-code-review-tools-comparison.md](dev-of-future/resources/developer-skills/ai-tool-selection/ai-code-review-tools-comparison.md)
+- [claude-code-poc-criteria.md](dev-of-future/resources/developer-skills/ai-tool-selection/claude-code-poc-criteria.md)
 - 2025 criteria set:
   - [ai-tool-selection.md](dev-of-future/resources/developer-skills/ai-tool-selection/ai_tool_selection_2025/ai-tool-selection.md)
   - [ai-coding-assistant-selection-criteria-2025.md](dev-of-future/resources/developer-skills/ai-tool-selection/ai_tool_selection_2025/ai-coding-assistant-selection-criteria-2025.md)
@@ -119,6 +120,23 @@ AI code contribution:
 - [06. floor-estimate.md](dev-of-future/resources/metrics/ai-code-contribution/06.%20floor-estimate.md)
 - [07. ai-code-overview.md](dev-of-future/resources/metrics/ai-code-contribution/07.%20ai-code-overview.md)
 
+AI commits:
+- [commit-count-overview.md](dev-of-future/resources/metrics/ai-commits/commit-count-overview.md)
+- [01. beyond-commit-count.md](dev-of-future/resources/metrics/ai-commits/01.%20beyond-commit-count.md)
+- [02. velocity-composite.md](dev-of-future/resources/metrics/ai-commits/02.%20velocity-composite.md)
+- [03. velocity-composite-revised.md](dev-of-future/resources/metrics/ai-commits/03.%20velocity-composite-revised.md)
+- [04. individual-vs-team.md](dev-of-future/resources/metrics/ai-commits/04.%20individual-vs-team.md)
+- [05. calculating the composites.md](dev-of-future/resources/metrics/ai-commits/05.%20calculating%20the%20composites.md)
+- [06. team-saturation.md](dev-of-future/resources/metrics/ai-commits/06.%20team-saturation.md)
+- [07. ai-team-metric-assessment.md](dev-of-future/resources/metrics/ai-commits/07.%20ai-team-metric-assessment.md)
+
+AI developer personas:
+- [01.1-ai-capability-maturity-developer-personas.md](dev-of-future/resources/metrics/ai-personas/01.1-ai-capability-maturity-developer-personas.md)
+- [01.2-copilot-cli-plan-mode-telemetry.md](dev-of-future/resources/metrics/ai-personas/01.2-copilot-cli-plan-mode-telemetry.md)
+- [01.3-copilot-cli-otel-enable-and-collect.md](dev-of-future/resources/metrics/ai-personas/01.3-copilot-cli-otel-enable-and-collect.md)
+- [02-5-ai-dev-personas-claude.md](dev-of-future/resources/metrics/ai-personas/02-5-ai-dev-personas-claude.md)
+- [03-otel-ghc.md](dev-of-future/resources/metrics/ai-personas/03-otel-ghc.md)
+
 #### Resources: Miscellaneous (`dev-of-future/resources/miscellaneous/`)
 
 - [mcp-security.md](dev-of-future/resources/miscellaneous/mcp-security.md)
@@ -129,11 +147,16 @@ AI instructions:
 - [copilot-instructions.md](ai-constructs/ai-instructions/copilot-instructions.md)
 
 Skills:
+- Commit scratch:
+  - [SKILL.md](ai-constructs/ai-skills/commit-scratch/SKILL.md)
 - Test quality evaluator:
   - [SKILL.md](ai-constructs/ai-skills/test-quality-evaluator/SKILL.md)
   - [references/rubric.md](ai-constructs/ai-skills/test-quality-evaluator/references/rubric.md)
 - Update README:
   - [SKILL.md](ai-constructs/ai-skills/update-readme/SKILL.md)
+
+Skill setup:
+- [symlinks-set.md](ai-constructs/ai-skills/symlinks-set.md)
 
 ### Organization (`organization/`)
 
