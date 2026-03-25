@@ -10,6 +10,7 @@
     - critical thinking
     - problem solving
     - cross-functional communication
+    - domain-specific knowledge
 - key problem areas
 	- ramping up design skills of junior devs
 	- handling devs who take pride in pure code skills
