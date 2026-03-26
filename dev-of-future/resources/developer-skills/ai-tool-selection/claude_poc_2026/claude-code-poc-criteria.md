@@ -1,5 +1,11 @@
 # Criteria to Decide Whether to Replace GitHub Copilot With Claude Code or Run Them Together in a Proof of Concept
 
+> from ChatGPT (GPT-5.4 deep research) with this prompt:
+
+```txt
+my organization is planning a poc with claude code; we already use github copilot; what criteria should e consider using to help us decide to either replace copilot with claude code or use in addition to copilot 
+```
+
 ## Executive summary
 
 Your decision is less about “which model is smarter” and more about “which product harness fits your engineering system.” Today, Copilot can run across many foundations models (including Claude family models) and offers deep GitHub-native workflows (IDE completion + chat + agents that can raise PRs/issues, plus enterprise policy/metrics/admin surfaces). citeturn12view3turn14view1turn15view0 Meanwhile Claude Code is designed as an agentic developer surface (terminal-first plus IDE/web/desktop) with enterprise-grade controls that are unusually explicit for agent behavior (centralized permissions deny-lists, permission modes including “auto mode,” and an Enterprise Zero Data Retention option for Claude Code). citeturn11search35turn12view2turn3search4turn12view1

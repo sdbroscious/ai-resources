@@ -49,7 +49,11 @@ AI mentoring:
 AI tool selection:
 - [tools_six_dimenations.md](dev-of-future/resources/developer-skills/ai-tool-selection/tools_six_dimenations.md)
 - [ai-code-review-tools-comparison.md](dev-of-future/resources/developer-skills/ai-tool-selection/ai-code-review-tools-comparison.md)
-- [claude-code-poc-criteria.md](dev-of-future/resources/developer-skills/ai-tool-selection/claude-code-poc-criteria.md)
+- `claude_poc_2026/`
+  - [claude-code-poc-criteria.md](dev-of-future/resources/developer-skills/ai-tool-selection/claude_poc_2026/claude-code-poc-criteria.md)
+  - [claude-code-poc-decision.md](dev-of-future/resources/developer-skills/ai-tool-selection/claude_poc_2026/claude-code-poc-decision.md)
+  - [claude-code-enterprise-poc.md](dev-of-future/resources/developer-skills/ai-tool-selection/claude_poc_2026/claude-code-enterprise-poc.md)
+  - [state-cli-tools-202601.md](dev-of-future/resources/developer-skills/ai-tool-selection/claude_poc_2026/state-cli-tools-202601.md)
 - 2025 criteria set:
   - [ai-tool-selection.md](dev-of-future/resources/developer-skills/ai-tool-selection/ai_tool_selection_2025/ai-tool-selection.md)
   - [ai-coding-assistant-selection-criteria-2025.md](dev-of-future/resources/developer-skills/ai-tool-selection/ai_tool_selection_2025/ai-coding-assistant-selection-criteria-2025.md)
