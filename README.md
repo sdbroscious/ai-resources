@@ -50,6 +50,7 @@ AI tool selection:
 - [tools_six_dimenations.md](dev-of-future/resources/developer-skills/ai-tool-selection/tools_six_dimenations.md)
 - [ai-code-review-tools-comparison.md](dev-of-future/resources/developer-skills/ai-tool-selection/ai-code-review-tools-comparison.md)
 - `claude_poc_2026/`
+  - [ai-code-asst-eval.md](dev-of-future/resources/developer-skills/ai-tool-selection/claude_poc_2026/ai-code-asst-eval.md)
   - [claude-code-poc-criteria.md](dev-of-future/resources/developer-skills/ai-tool-selection/claude_poc_2026/claude-code-poc-criteria.md)
   - [claude-code-poc-decision.md](dev-of-future/resources/developer-skills/ai-tool-selection/claude_poc_2026/claude-code-poc-decision.md)
   - [claude-code-enterprise-poc.md](dev-of-future/resources/developer-skills/ai-tool-selection/claude_poc_2026/claude-code-enterprise-poc.md)
