@@ -28,7 +28,11 @@
 
 - **prompt-comparator**: This is a web app that allows the user to see responses to the same prompt from selected frontier models. It was created with **Gemini CLI**, **Gemini Antigravity**, and **Gemini Conductor** in 2026-02. Since the start of this I've also added **Codex** into the mix. [repo](https://github.com/sdbroscious/prompt-comparator).
 
+### Non-repository work
 
+- **Day One to Obsidian**: Leveraged **Claude Cowork** to migrate roughly 1,000 Day One documents to my Obsidian vault. The Day One data was exported as a single JSON file that Cowork was able to process and convert to markdown files in my vault. A subsequent effort involved using **Claude Code** to update tagging of the documents.
+
+- **Dispatch to Obsidian**: Used **Claude Cowork Dispatch** on my iPhone to add new content to my Obsidian daily note on my MacBook Pro. Also used Dispatch to open the Papa John's website and add a medium cheese pizza to the cart.
 
 ### GAIG Repos
 
