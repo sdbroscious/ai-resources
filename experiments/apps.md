@@ -28,7 +28,7 @@
 
 - **prompt-comparator**: This is a web app that allows the user to see responses to the same prompt from selected frontier models. It was created with **Gemini CLI**, **Gemini Antigravity**, and **Gemini Conductor** in 2026-02. Since the start of this I've also added **Codex CLI** into the mix. [repo](https://github.com/sdbroscious/prompt-comparator).
 
-- **slash-commands-app**: This is a simple web app that started as a **ChatGPT Atlas** prompt (first just a markdown file and then a jsx 1 pager). From there I used **Codex CLI**  and **Gemini Antigravity** to build a functional app. [repo](https://github.com/sdbroscious/slash-commands-app). After that, I leveraged the **Codex** web app to create an Automation designed to update slash commands in the app on a weekly basis.
+- **slash-commands-app**: This app started as a simple chat: I wanted to see all slash commands across all major CLI AI coding tools. I used GPT-5.4 in **ChatGPT Atlas**. Immediately I asked Atlas to turn the markdown table into a dynamic web page that i could use to sort and filter commands. It created a singly page React app. The next phase was to that initial app into a stand alone web app, backed by a git repo, using **Codex CLI** and **Gemini Antigravity**. Once this was complete, I decided to automate updating the commands data in the app, using the **Codex** macOS app. Now the commands are updated every week via an automation that runs on my MacBook Pro. [repo](https://github.com/sdbroscious/slash-commands-app).
 
 ### Non-repository work
 
