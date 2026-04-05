@@ -28,7 +28,15 @@
 
 - **prompt-comparator**: This is a web app that allows the user to see responses to the same prompt from selected frontier models. It was created with **Gemini CLI**, **Gemini Antigravity**, and **Gemini Conductor** in 2026-02. Since the start of this I've also added **Codex CLI** into the mix. [repo](https://github.com/sdbroscious/prompt-comparator).
 
-- **slash-commands-app**: This app started as a simple chat: I wanted to see all slash commands across all major CLI AI coding tools. I used GPT-5.4 in **ChatGPT Atlas**. Immediately I asked Atlas to turn the markdown table into a dynamic web page that i could use to sort and filter commands. It created a singly page React app. The next phase was to that initial app into a stand alone web app, backed by a git repo, using **Codex CLI** and **Gemini Antigravity**. Once this was complete, I decided to automate updating the commands data in the app, using the **Codex** macOS app. Now the commands are updated every week via an automation that runs on my MacBook Pro. [repo](https://github.com/sdbroscious/slash-commands-app).
+- **slash-commands-app**: 
+    - **Iteration 1**: This app started as a simple chat: I wanted to see all slash commands across all major CLI AI coding tools. I used GPT-5.4 in **ChatGPT Atlas**. 
+        - prompt: *please build a table of slash commands available in Codex CLI, Gemini CLI, Claude Code and GitHub Copilot CLI*
+    - **Iteration 2**: I immediately asked **Atlas** to turn the markdown table into a dynamic web page that i could use to sort and filter commands. It created a singly page React app. 
+        - prompt: *okay; now let's create a web app that allows the table to be sorted by CLI or by command*
+    - **Iteration 3**: The next phase was to turn that initial app into a stand alone web app, backed by a git repo, using **Codex CLI** and **Gemini Antigravity**. 
+    - **Iteration 4**: Once this was complete, I decided to automate updating the commands data in the app, using the **Codex** macOS app. Now the commands are updated every week via an automation that runs on my MacBook Pro. [repo](https://github.com/sdbroscious/slash-commands-app). 
+    - **Iteration 5**: Now I've deployed the app via **Render** ([slash-commands-app](https://slash-commands-app.onrender.com/)) in hopes of letting the Codex automation run then doing a manual push to github, and having that push trigger an automatic redeploy in Render. Fingers crossed. 
+    - It's worth noting that the total work time to get to the Codex automation was 1.5 hours. Setting up the Render account and deployment took another 30 minutes. So, I have about 2 hours into this. Manually writing the code would have taken me somewhere between 4-8 hours.
 
 ### Non-repository work
 
